@@ -23,4 +23,3 @@ Deze applicatie is open-source.
 
 * Trello https://trello.com/b/rjY6KG4w/krookie
 * Slack https://lab9k.slack.com/messages/C4XC1FBPD/
-
