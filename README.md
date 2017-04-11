@@ -18,3 +18,8 @@ Deze applicatie is open-source.
 |Contributor        |Daan Meert       |
 |Contributor        |Brent De Roeck     |
 |Contributor/Mentor |Hans Fraiponts |
+
+## Info (*members only*)
+
+* Trello https://trello.com/b/rjY6KG4w/krookie
+* Slack https://lab9k.slack.com/messages/C4XC1FBPD/
