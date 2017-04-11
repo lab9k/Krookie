@@ -1,2 +1,3 @@
 ## Brent kan pushen
-## Adriaan kan pompen
+## Adriaan heeft een kleine piemel
+## Daan kan pushen
