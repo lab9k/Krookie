@@ -13,8 +13,8 @@ Deze applicatie is open-source.
 |                   |               |   
 |----               |----           |
 |Contributor        |Thomas Coppein |
-|Contributor        |Niels Cappelle|
+|Contributor        |Niels Cappelle |
 |Contributor        |Adriaan Glibert|
-|Contributor        |Daan Meert       |
-|Contributor        |Brent De Roeck     |
+|Contributor        |Daan Meert     |
+|Contributor        |Brent De Roeck |
 |Contributor/Mentor |Hans Fraiponts |
