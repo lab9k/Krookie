@@ -1,13 +1,16 @@
 ## Krookie app. 
 
+
 Short history....
 
 
 ## Contributors
 
-*  Brent kan pushen
-*  Adriaan kan pushen
-*  Daan kan pushen
-*  HansF is binnnen. :-) 
-*  Niels is in the house!
-*  Thomas is also in the house :)
+|                   |               |   
+|----               |----           |
+|Contributor        |Thomas Coppein |
+|Contributor        |Niels Cappelle|
+|Contributor        |Adriaan Glibert|
+|Contributor        |Daan Meert       |
+|Contributor        |Brent De Roeck     |
+|Contributor/Mentor |Hans Fraiponts |
