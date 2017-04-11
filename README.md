@@ -22,9 +22,5 @@ Deze applicatie is open-source.
 ## Info (*members only*)
 
 * Trello https://trello.com/b/rjY6KG4w/krookie
-<<<<<<< HEAD
-* Slack https://lab9k.slack.com/messages/C4XC1FBPD/
-=======
 * Slack https://lab9k.slack.com/messages/C4XC1FBPD/
 
->>>>>>> origin/master
