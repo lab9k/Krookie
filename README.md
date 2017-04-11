@@ -15,17 +15,11 @@ Deze applicatie is open-source.
 |Contributor        |Thomas Coppein |
 |Contributor        |Niels Cappelle |
 |Contributor        |Adriaan Glibert|
-<<<<<<< HEAD
 |Contributor        |Daan Meert     |
 |Contributor        |Brent De Roeck |
-|Contributor/Mentor |Hans Fraiponts |
-=======
-|Contributor        |Daan Meert       |
-|Contributor        |Brent De Roeck     |
 |Contributor/Mentor |Hans Fraiponts |
 
 ## Info (*members only*)
 
 * Trello https://trello.com/b/rjY6KG4w/krookie
 * Slack https://lab9k.slack.com/messages/C4XC1FBPD/
->>>>>>> e7bf3190c0e440210cf75dcc811cdf39aaef75da
