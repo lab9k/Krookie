@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Francois One';
+  src: url('assets/fonts/FrancoisOne-Regular.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/FrancoisOne-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('assets/fonts/FrancoisOne-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('assets/fonts/FrancoisOne-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/FrancoisOne-Regular.svg#svgFrancoisOne') format('svg'); /* Legacy iOS */
+}
+/* Variables */
+
+/* ---- */
+/* Main */
+* {
+ 	padding: 0;
+ 	margin: 0;
+ }
+/*------*/
+
+/*Banner*/
+.main-banner {
+	width: 100vw;
+	height: 50vh;
+}
+.main-banner-logo {
+	position: relative;
+	margin-left: 35vw;
+	margin-right: 35vw;
+	margin-top: 10vh;
+	width: 30vw;
+}
+/* ---- */
+
+/* Blocks */
+.main-blocks {
+	width: 
+}
+/* ---- */
