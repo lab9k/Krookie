@@ -31,7 +31,6 @@ body {
 /* ---- */
 /* Blocks */
 .main-blocks {
-  background-color: #e85143;
   width: 70%;
   height: auto;
   margin-left: 15%;
@@ -42,15 +41,27 @@ body {
   justify-content: center; }
 
 .block {
-  margin-left: 1vw;
-  margin-right: 1vw;
+  margin: 1vw;
   width: 20vw;
-  height: 20vw; }
+  height: 20vw;
+  text-align: center; }
+
+.block-content {
+  padding: 5%; }
 
 .main-blocks div:nth-of-type(1) {
   background-color: #23d1b0; }
 
 .main-blocks div:nth-of-type(2) {
   background-color: #20b6d4; }
+
+.main-blocks div:nth-of-type(3) {
+  background-color: #e85143; }
+
+.main-blocks div:nth-of-type(4) {
+  background-color: #f59331; }
+
+.main-blocks div:nth-of-type(5) {
+  background-color: #1579fb; }
 
 /* ---- */
