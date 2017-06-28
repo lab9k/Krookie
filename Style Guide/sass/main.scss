@@ -67,6 +67,49 @@ $darkblue: #1579fb;
 		padding-top: 20%;
 	}
 }
+.typo {
+	display: flex;
+	flex-direction: column;
+	height: 90%;
+	width: 90%;
+}
+.typo h3 {
+  	padding-top: 30%;
+  	text-align: center;
+}
+.color-block {
+	position: relative;
+	width: 80%;
+	margin-left: 10%;
+	height: auto;
+	display: flex;
+	padding-top: 30%;
+	justify-content: space-between;
+}
+.color1 {
+	height: 50px;
+	width: 50px;
+	background-color: $red;
+	border-radius: 50%;
+}
+.color2 {
+	height: 50px;
+	width: 50px;
+	background-color: $green;
+	border-radius: 50%;
+}
+.color3 {
+	height: 50px;
+	width: 50px;
+	background-color: $lightblue;
+	border-radius: 50%;
+}
+.color4 {
+	height: 50px;
+	width: 50px;
+	background-color: $orange;
+	border-radius: 50%;
+}
 .main-blocks>a:nth-of-type(1){
 	background-color: $green;
 }
