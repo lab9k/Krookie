@@ -1,0 +1,16 @@
+/* Variables */
+/* ---- */
+/* Main */
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  text-align: center;
+  font-family: 'Francois One'; }
+
+h1 {
+  padding-top: 5vh;
+  font-size: 3rem; }
+
+/*------*/

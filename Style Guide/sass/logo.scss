@@ -20,3 +20,39 @@ $darkblue: #1579fb;
  	font-size: 3rem;
  }
 /*------*/
+/* Logo's */
+.logo {
+	padding-top: 10vh;
+	width: 100vw;
+	img {
+		padding-top: 5vh;
+		width: 30vw;
+	}
+	.white {
+		background-color: $red;
+		width: 50%;
+		margin-left: 25%;
+		padding-bottom: 3vh;
+		margin-bottom: 10vh;
+	}
+}
+.logo-blocks {
+	width: 80vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/* ------ */
+/* Media Queries */
+@media screen and (max-width: 480px) {
+	.logo {
+		img {
+		width: 50vw;
+		}
+		.white {
+			width: 60%;
+			margin-left: 20%;
+		}
+	}
+}
+/* ------------- */
