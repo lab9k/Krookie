@@ -1,0 +1,140 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.button__small {
+    display: inline-block;
+    width: 7.5%;
+    fill: $white;
+    z-index: 9999;
+    .button__arrow {
+        width: 25%;
+        fill: $red;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.button__arrow--left {
+    svg {
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }
+}
+
+.button__arrow--right {
+    svg {
+        -ms-transform: rotate(180deg); /* IE 9 */
+        -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+        transform: rotate(180deg);
+    }
+}
+
+.button__small--left {
+    position: absolute;
+    left: 5%;
+    top: 46.25%; 
+}
+
+.button__small--right {
+    position: absolute;
+    right: 5%;
+    top: 46.25%; 
+}
+
+.button__top--1 {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+}
+
+.button__top--2 {
+    position: absolute;
+    left: 28%;
+    top: 4%;
+}
+
+.button__top--3 {
+    position: absolute;
+    left: 52%;
+    top: 4%;
+}
+
+.button__top--4 {
+    position: absolute;
+    left: 76%;
+    top: 4%;
+}
+
+.button__bottom--1 {
+    position: absolute;
+    left: 4%;
+    bottom: 4%;
+}
+
+.button__bottom--2 {
+    position: absolute;
+    left: 28%;
+    bottom: 4%;
+}
+
+.button__bottom--3 {
+    position: absolute;
+    left: 52%;
+    bottom: 4%;
+}
+
+.button__bottom--4 {
+    position: absolute;
+    left: 76%;
+    bottom: 4%;
+}
+
+.button {
+    display: inline-block;
+    width: 20%;
+   .button__placeholder {
+        font-size: 3vw;
+        text-transform: uppercase;
+        position: absolute;
+        left: 50%;
+        top: 47.5%;
+        transform: translate(-50%, -50%);
+        p {
+            margin: 0;
+        }
+   }
+}
+
+.button--white {
+    color: $red;
+    fill: $white;
+}
+
+.button--white:active {
+    color:$white;
+    fill: $red;
+}
+
+.button--white:focus {
+    color:$white;
+    fill: $red;
+}
+
+.button--red {
+    color: $white;
+    fill: $red;
+}
+
+.button--red:active {
+    color:$red;
+    fill: $white;
+}
+
+.button--red:focus {
+    color:$red;
+    fill: $white;
+}

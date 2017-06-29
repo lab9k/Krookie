@@ -1,0 +1,24 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $red;
+  font: normal 125% / 1.4 $text-font-stack;
+}
+
+a {
+    outline:0;
+    color: $red;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+}
+
+a:focus {
+    outline:0;
+}
+
+a:active {
+    outline:0;
+}

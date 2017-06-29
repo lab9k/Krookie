@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import
+	'variables/variables';
+
+// 2. Vendors
+@import
+	'vendor/normalize';
+
+// 3. Base
+@import
+	'base/typography',
+	'base/helpers';
+
+// 4. Components
+@import
+	'components/background',
+	'components/message',
+	'components/slider',
+	'components/button';
