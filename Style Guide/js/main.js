@@ -4,3 +4,4 @@ $(document).ready(function(){
     $(".nav-section").toggleClass("nav-hidden");
   });
 });
+new Clipboard('.btn');

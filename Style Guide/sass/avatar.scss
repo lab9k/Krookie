@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'Francois One';
-  src: url('assets/fonts/FrancoisOne-Regular.eot'); /* IE9 Compat Modes */
-  src: url('assets/fonts/FrancoisOne-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('assets/fonts/FrancoisOne-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('assets/fonts/FrancoisOne-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('assets/fonts/FrancoisOne-Regular.svg#svgFrancoisOne') format('svg'); /* Legacy iOS */
-}
 /* Variables */
 $red : #e85143;
 $orange: #f59331;
@@ -59,10 +51,6 @@ $darkblue: #1579fb;
 
 /* Media Queries */
 @media screen and (max-width: 480px) {
-	.nav {
-		margin-left: 10%;
-		margin-top: 10%;
-	}
 	.avatar-block {
 		display: flex;
 		flex-direction: column;
@@ -77,16 +65,17 @@ $darkblue: #1579fb;
 	}
 	h1 {
 		font-size: 2rem;
+		padding-top: 5vh;
 	}
 	.avatar-name p{
 		font-size: 1.2rem;
 	}
-}
-/* ------------- */
-/* Media Queries */
-@media screen and (max-width: 480px) {
 	.arrow_nav{
-		padding-top: 15vw;
+		padding-top: 0vh;
+		h1 {
+			font-size: 3rem;
+		}
 	}
 }
 /* ------------- */
+

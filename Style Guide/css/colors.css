@@ -1,0 +1,63 @@
+/* Variables */
+/* ---- */
+/* Main */
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  text-align: center;
+  font-family: 'Francois One'; }
+
+h1 {
+  padding-top: 5vh;
+  font-size: 3rem; }
+
+/*------*/
+/* Color Block */
+.color-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30vh;
+  width: 80%;
+  height: auto;
+  margin-left: 10%; }
+  .color-block p {
+    font-size: 2rem; }
+
+.color {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%; }
+
+.groen {
+  background-color: #23d1b0; }
+
+.lightblue {
+  background-color: #20b6d4; }
+
+.red {
+  background-color: #e85143; }
+
+.orange {
+  background-color: #f59331; }
+
+.darkblue {
+  background-color: #1579fb; }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .color-block {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10vh; }
+  .color {
+    width: 60vw;
+    height: 60vw;
+    border-radius: 50%;
+    margin-left: 10%; } }
+
+/* ------------- */
