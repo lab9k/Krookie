@@ -17,7 +17,7 @@
                 width: 50%;
                 position: absolute;
                 left: 50%;
-                top: 50%;
+                top: 40%;
                 transform: translate(-50%, -50%);
             }
         }
@@ -26,13 +26,13 @@
             fill: $white;
             position: absolute;
             left: 50%;
-            top: 50%;
+            top: 40%;
             transform: translate(-50%, 150%);
         }
         p {
             position: absolute;
             left: 50%;
-            top: 50%;
+            top: 40%;
             transform: translate(-50%, 220%);
             color: $red;
             font-size: 3vw;
@@ -44,21 +44,94 @@
 .swiper-pagination {
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -550%);
+    top: 75%;
+    height: 3vw;
+    transform: translate(-50%, -50%);
     .swiper-pagination-bullet {
         height: 2vw;
         width: 2vw;
-        padding: .5vw;
-        margin: 0 .5vw;
+        margin: .5vw;
     }
     .swiper-pagination-bullet-active{
         background: $white;
-        padding: .5vw;
+        height: 3vw;
+        width: 3vw;
+        margin: 0vw .5vw 0 .5vw;
     }
 }
 
+.animation_container {
+    position:absolute;
+    width: 30vw;
+    height: 30vw;
+    left: 10vw;
+    -webkit-animation: clockwiseSpin 8s infinite linear;
 
+}
+
+.circle1 {
+    width: 4vw;
+    position:absolute;
+    left: 6.5vw;
+    top: 8.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle2 {
+    width: 4vw;
+    position:absolute;
+    left: 12.5vw;
+    top: 5vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle3 {
+    width: 4vw;
+    position:absolute;
+    right: 6.5vw;
+    top: 8.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle4 {
+    width: 4vw;
+    position:absolute;
+    right: 4vw;
+    bottom: 13.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle5 {
+    width: 4vw;
+    position:absolute;
+    right: 6.5vw;
+    bottom: 8.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle6 {
+    width: 4vw;
+    position:absolute;
+    left: 12.5vw;
+    bottom: 5vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle7 {
+    width: 4vw;
+    position:absolute;
+    left: 6.5vw;
+    bottom: 8.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle8 {
+    width: 4vw;
+    position:absolute;
+    left: 5vw;
+    bottom: 13.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+
+
+
+@-webkit-keyframes clockwiseSpin {
+    0% {-webkit-transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);}
+}
 
 
 
