@@ -1,0 +1,127 @@
+/* Variables */
+/* ---- */
+/* Main */
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  text-align: center;
+  font-family: 'Francois One'; }
+
+h1 {
+  padding-top: 5vh;
+  font-size: 3rem; }
+
+/*------*/
+/* Typo Block */
+.typo-block {
+  padding-top: 5vh; }
+
+/* Buttons */
+.button-example {
+  padding-top: 2vh;
+  position: relative; }
+  .button-example a svg svg {
+    fill: #e85143;
+    margin-top: 100px; }
+  .button-example a svg svg:active {
+    fill: white; }
+
+.buttons {
+  background-color: #20b6d4;
+  position: relative;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 2vh; }
+
+.button {
+  display: inline-block;
+  width: 50%; }
+
+.button .button__placeholder {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%); }
+
+.button .button__placeholder p {
+  margin: 0; }
+
+.background--darkblue {
+  background-color: #1579fb; }
+
+.background--lightblue {
+  background-color: #20b6d4; }
+
+.background--red {
+  background-color: #e85143; }
+
+.background--orange {
+  background-color: #f59331; }
+
+.background--green {
+  background-color: #23d1b0; }
+
+.button__small {
+  display: inline-block;
+  width: 7.5%;
+  fill: #FFF; }
+
+.button__small .button__arrow {
+  width: 25%;
+  fill: #e85143;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.button__arrow--left svg {
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg); }
+
+.button__arrow--right svg {
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg); }
+
+.button--white {
+  color: #e85143;
+  fill: #FFF; }
+
+.button--white:active {
+  color: #FFF;
+  fill: #e85143; }
+
+.button--white:focus {
+  color: #FFF;
+  fill: #e85143; }
+
+.button--red {
+  color: #FFF;
+  fill: #e85143; }
+
+.button--red:active {
+  color: #e85143;
+  fill: #FFF; }
+
+.button--red:focus {
+  color: #e85143;
+  fill: #FFF; }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .buttons {
+    margin-left: 20%;
+    width: 60%; }
+  .button .button__placeholder {
+    font-size: 1rem; } }
+
+/* ------------- */
