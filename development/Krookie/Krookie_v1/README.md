@@ -1,10 +1,5 @@
-#Krookie
-Krookie is een applicatie gemaakt door studenten van de arteveldehogeschool in medewerking met lab9k
+# Krookie V1
 
-## Usage
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
+## Description
+Read a JSON file, working test PhoneGap APK
 
