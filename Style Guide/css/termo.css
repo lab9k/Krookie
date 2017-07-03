@@ -1,4 +1,3 @@
-
 .cls-2 { transition: fill 2s ease-in-out; }
 .red-fill .fill {
 	fill: #e85143;
@@ -8,4 +7,7 @@
 }
 .orange-fill .fill {
 	fill: #f59331;
+}
+.cls-2 {
+	transition: .4s;
 }
