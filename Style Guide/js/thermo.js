@@ -21,14 +21,14 @@ function thermometer() {
 			thermo.classList.remove(this.getAttribute("data-height-delete"));
 	}
 	document.getElementById('redButton').addEventListener('click',function(){
-  		$('#inside')[0].setAttribute("d", "M1.81,12.8V3.69A.61.61,0,0,1,3,3.69V12.8").transition = "2s linear";
+  		$('#inside')[0].setAttribute("d", "M1.81,12.8V3.69A.61.61,0,0,1,3,3.69V12.8");
 ;
 	},false);
 	document.getElementById('blueButton').addEventListener('click',function(){
-  		$('#inside')[0].setAttribute("d", "M1.81,12.8v-5A.61.61,0,0,1,3,7.78v5").transition = "2s linear";
+  		$('#inside')[0].setAttribute("d", "M1.81,12.8v-5A.61.61,0,0,1,3,7.78v5");
 	},false);
 	document.getElementById('orangeButton').addEventListener('click',function(){
-  		$('#inside')[0].setAttribute("d", "M1.81,12.8V5.73A.61.61,0,0,1,3,5.73V12.8").transition= "2s linear";
+  		$('#inside')[0].setAttribute("d", "M1.81,12.8V5.73A.61.61,0,0,1,3,5.73V12.8");
 	},false);
 
 	// $('#blueButton')[0].click(function(){
