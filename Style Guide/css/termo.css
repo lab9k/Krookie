@@ -1,0 +1,11 @@
+
+.cls-2 { transition: fill 2s ease-in-out; }
+.red-fill .fill {
+	fill: #e85143;
+}
+.blue-fill .fill {
+	fill: #1579fb;
+}
+.orange-fill .fill {
+	fill: #f59331;
+}
