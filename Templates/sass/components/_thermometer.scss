@@ -23,6 +23,7 @@
 		transform: translate3d(3px, 0, 0);
 	}
 }
+
 .blue-fill .fill {
 	fill: #1579fb;
 }
@@ -35,7 +36,7 @@
     -moz-transition: all 0.9s ease;
     -o-transition: all 0.9s ease;
 }
-#transition {
+#background--effect {
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -64,17 +65,17 @@
 	width: 80vw;
 	height: 50vw;
 }
-.book {
-	position: absolute;
-	width: 30vw;
-	top: 15vw;
-}
-.book__cover {
-	width: 24vw;
-	margin-left: 38vw;
-	margin-top: 2vw;
-	object-fit: contain;
-}
+// .book {
+// 	position: absolute;
+// 	width: 30vw;
+// 	top: 15vw;
+// }
+// .book__cover {
+// 	width: 25vw;
+// 	margin-left: 38vw;
+// 	margin-top: 2vw;
+// 	object-fit: contain;
+// }
 .avatar__text {
 	filter: none;
 	-moz-filter: none;
@@ -97,7 +98,7 @@
 .button {
 	z-index: 9999;
 }
-#container {
+#background--effect {
 overflow: hidden;
 }
 #confetti {
@@ -118,4 +119,17 @@ overflow: hidden;
 	bottom: 0;
 	left: 0;
 	margin-bottom: 16vw;
+}
+
+
+
+.thermometer {
+	position: relative;
+	width: 28vw; 
+	svg {
+		position: absolute;
+		width: 10vw;
+		left: 59vw;
+        transform: translate(-0vw, 100%);
+	}
 }
