@@ -9,10 +9,10 @@
 	fill: #f59331;
 }
 .cls-2 {
-	transition: all 1.2s ease;
-	-webkit-transition: all 1.2s ease;
-    -moz-transition: all 1.2s ease;
-    -o-transition: all 1.2s ease;
+	transition: all 0.9s ease;
+	-webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
 }
 #container {
 	-webkit-transition: all 1s ease;
@@ -32,6 +32,7 @@
 	width: 100vw;
 }
 .avatar__image{
+	z-index: -1;
 	position: absolute;
 	width: 20%;
 	object-fit: contain;
@@ -54,10 +55,17 @@
 	object-fit: contain;
 }
 .avatar__text {
+	filter: none;
+	-moz-filter: none;
+    -ms-filter: none; 
+    -o-filter: none;
 	position: absolute;
 	font-size: 3vw;
 	bottom: 0;
 	left: 0;
-	margin-bottom: 14vh;
+	margin-bottom: 5vw;
 	margin-left: 6vw;
+}
+.placeholder__text {
+	margin-left: 2vw;
 }

@@ -29,16 +29,22 @@ function thermometer() {
   		$('#inside')[0].setAttribute("d", "M1.81,12.8V3.69A.61.61,0,0,1,3,3.69V12.8"); 
   		$('#container').removeClass();
   		$('#container').addClass('container background--red');
+  		$('.avatar__text p').html("Mmmm, lekker warm");
+  		$('.gevonden__button').css("visibility", "visible");
 	},false);
 	document.getElementById('blueButton').addEventListener('click',function(){
   		$('#inside')[0].setAttribute("d", "M1.81,12.8v-5A.61.61,0,0,1,3,7.78v5");
   		$('#container').removeClass();
   		$('#container').addClass('container background--darkblue');
+  		$('.avatar__text p').html("Brrrr, het is hier koud...");
+  		$('.gevonden__button').css("visibility", "hidden");
 	},false);
 	document.getElementById('orangeButton').addEventListener('click',function(){
   		$('#inside')[0].setAttribute("d", "M1.81,12.8V5.73A.61.61,0,0,1,3,5.73V12.8");
   		$('#container').removeClass();
   		$('#container').addClass('container background--orange');
+  		$('.avatar__text p').html("It's getting hot in here");
+  		$('.gevonden__button').css("visibility", "hidden");
 	},false);
 
 }
