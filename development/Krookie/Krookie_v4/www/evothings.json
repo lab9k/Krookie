@@ -1,0 +1,38 @@
+{
+  "name": "Krookie iBeacon PhoneGap",
+  "version": "0.0.1",
+  "title": "Krookie iBeacon PhoneGap",
+  "description": "Test van Beacons in een PhoneGap strcutuur.",
+  "tags": [
+    {
+      "label": "ibeacon",
+      "type": "platform"
+    },
+    {
+      "label": "ble",
+      "type": "comm"
+    }
+  ],
+  "libraries": [
+    {
+      "name": "jquery",
+      "version": "2.1.1"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "cordova-plugin-ibeacon",
+      "version": "3.4.3"
+    },
+    {
+      "name": "de.appplant.cordova.plugin.local-notification",
+      "version": "0.8.4"
+    }
+  ],
+  "index-file": "index.html",
+  "uuid": "864c5421-8b6b-41df-adc8-cc6ee5cb8a73",
+  "icon": "app-icon.png",
+  "doc-url": "http://evothings.com/2.2/doc/examples/ibeacon-scan.html",
+  "long-description": "Krookie test.",
+  "cordova-id": "com.evothings.examples.ibeaconscan"
+}
