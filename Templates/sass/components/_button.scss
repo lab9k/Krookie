@@ -4,7 +4,7 @@
 
 .button__small {
     display: inline-block;
-    width: 7.5%;
+    width: 7.5vw;
     fill: $white;
     z-index: 9999;
     .button__arrow {
@@ -137,4 +137,84 @@
 .button--red:focus {
     color:$red;
     fill: $white;
+}
+
+.desk {
+    svg {
+        z-index: 9999;
+        position: relative;
+    }
+}
+
+.student__left {
+    svg {
+        width: 45%;
+        position: absolute;
+        z-index: 1;
+        left: 30%;
+        top: -65%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.student__right {
+    svg {
+        width: 45%;
+        position: absolute;
+        z-index: 1;
+        left: 70%;
+        top: -65%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.placeholder__selector {
+    width: 20vw;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    z-index: 9998;
+    transform: translate(-50%);
+    svg {
+        fill: $white;
+    }
+    p {
+        color: $red;
+        position: absolute;
+        width: 100%;
+        z-index: 9999;
+        text-align: center;
+        left: 50%;
+        top: -47.5%;
+        font-size: 3vw;
+        transform: translate(-50%);
+    }
+}
+
+.book__yes {
+        position: absolute;
+        left: 15%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+    p {
+        font-size: 3vw;
+        width: 7.5vw; 
+        transform: translate(-37.5%, -0%);
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.book__no {
+        position: absolute;
+        left: 85%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+    p {
+        font-size: 3vw;
+        width: 7.5vw; 
+        transform: translate(-37.5%, -0%);
+        margin: 0;
+        text-align: center;
+    }
 }

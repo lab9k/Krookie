@@ -1,0 +1,27 @@
+.bookcover {
+    position: absolute;
+    height: 45vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.message__book {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    svg {
+        fill: $white;
+        width: 50vw;
+    }
+    p {
+        position: absolute;
+        width: 50vw;
+        text-align: center;
+        left: 50%;
+        top: 10%;
+        font-size: 3vw;
+        transform: translate(-50%,-50%);
+    }
+}
