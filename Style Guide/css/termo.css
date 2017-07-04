@@ -9,14 +9,55 @@
 	fill: #f59331;
 }
 .cls-2 {
-	transition: all 1.2s;
-	-webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
+	transition: all 1.2s ease;
+	-webkit-transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
 }
 #container {
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
+}
+.shadow {
+	-webkit-filter: drop-shadow( 2px 3px 3px hsla(0, 0%, 0%, 0.5) );
+	filter: drop-shadow( 2px 3px 5px hsla(0, 0%, 0%, 0.5) );
+}
+.avatar {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40vw;
+	width: 100vw;
+}
+.avatar__image{
+	position: absolute;
+	width: 20%;
+	object-fit: contain;
+	margin-top: 10vw;
+}
+.text__background {
+	position: absolute;
+	width: 80vw;
+	height: 50vw;
+}
+.book {
+	position: absolute;
+	width: 30vw;
+	top: 15vw;
+}
+.book__cover {
+	width: 24vw;
+	margin-left: 38vw;
+	margin-top: 2vw;
+	object-fit: contain;
+}
+.avatar__text {
+	position: absolute;
+	font-size: 3vw;
+	bottom: 0;
+	left: 0;
+	margin-bottom: 14vh;
+	margin-left: 6vw;
 }
