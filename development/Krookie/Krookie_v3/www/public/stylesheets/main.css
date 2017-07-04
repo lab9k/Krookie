@@ -521,12 +521,12 @@ a:active {
     width: 50vw; }
   .message__book p {
     position: absolute;
-    width: 40vw;
+    width: 50vw;
     text-align: center;
     left: 50%;
-    top: 50%;
+    top: 10%;
     font-size: 3vw;
-    transform: translate(-50%, -75%); }
+    transform: translate(-50%, -50%); }
 
 .message__top {
   width: 55vw;

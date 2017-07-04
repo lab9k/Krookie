@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Uitleg</title>
+</head>
+
+<body>
+    <div data-ng-app="filterModule">
+            <div data-ng-controller="filterViewController">
+                <div ng-repeat="value in category">
+                    Category-id: {{value}}
+                </div>
+                <div ng-repeat="value in readingskill">
+                    readingskill-id: {{value}}
+                </div>
+        </div>
+    </div>
+
+    <!--Nu nog CDN maar moet weg!-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/module.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/filter/filterService.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/filter/filterController.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/filter/filterViewController.js"></script>
+</body>
+
+</html>
