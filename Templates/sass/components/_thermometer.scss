@@ -65,17 +65,22 @@
 	width: 80vw;
 	height: 50vw;
 }
-// .book {
-// 	position: absolute;
-// 	width: 30vw;
-// 	top: 15vw;
-// }
-// .book__cover {
-// 	width: 25vw;
-// 	margin-left: 38vw;
-// 	margin-top: 2vw;
-// 	object-fit: contain;
-// }
+.book {
+	position: absolute;
+	width: 30vw;
+	top: 15vw;
+}
+.book__cover {
+	width: 25vw;
+	margin-left: 38vw;
+	margin-top: 2vw;
+	object-fit: contain;
+}
+
+canvas {
+	width: 100vw;
+}
+
 .avatar__text {
 	filter: none;
 	-moz-filter: none;
@@ -130,6 +135,6 @@ overflow: hidden;
 		position: absolute;
 		width: 10vw;
 		left: 59vw;
-        transform: translate(-0vw, 100%);
+		top: 30vw;
 	}
 }
