@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+		shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta-data android:name="disable_hardware_filtering" android:value="true" />
+	<link href="public/stylesheets/style.css" rel="stylesheet" type="text/css">
+	<title>Krookie</title>
+	<script>
+		// Redirect console.log to Evothings Workbench.
+		if (window.hyper && window.hyper.log) {
+			console.log = hyper.log
+		}
+	</script>
+
+	<script src="cordova.js"></script>
+	<script src="public/javascripts/jquery-3.2.1.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+	<script src="libs/evothings/ui/ui.js"></script>
+	<script src="public/javascripts/beacon.js"></script>
+
+</head>
+
+<body ontouchstart="">
+	<!-- ontouchstart="" enables low-delay CSS transitions. -->
+
+	<header>
+		<button class="back" onclick="history.back()">
+			close connection
+		</button>
+	</header>
+
+	<h1>Krookie Cordova via PhoneGap</h1>
+
+	<a href="./views/edit_record.html">Test Angular</a><br><br>
+
+	<br><br>
+	<a href="./views/books.html">Zie alle boeken</a><br><br>
+	<a href="./views/class.html">Filter</a><br><br>
+
+	<h2>Beacon Test</h2>
+	<p id="warning">Zeker UUID gespecifieerd? Wacht even want kan even duren.</p>
+	<ul id="found-beacons" class="dynamic"></ul>
+
+	<script src="cordova.js"></script>
+	<script type="text/javascript" src="public/javascripts/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="public/javascripts/app/book/module.js"></script>
+	<script type="text/javascript" src="public/javascripts/app/book/bookService.js"></script>
+	<script type="text/javascript" src="public/javascripts/app/book/bookController.js"></script>
+	<script type="text/javascript" src="public/javascripts/app/book/bookViewController.js"></script>
+</body>
+
+</html>
