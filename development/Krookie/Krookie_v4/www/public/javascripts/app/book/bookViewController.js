@@ -5,8 +5,10 @@ bookViewController.$inject = ['$scope', 'bookService'];
 function bookViewController($scope, bookService) {
     $scope.books = [];
     getBooksAccordingToFilter();
-    $scope.chosenone = JSON.parse(window.localStorage.book);
-    
+
+    if(window.localStorage.book != null) {
+        $scope.chosenone = JSON.parse(window.localStorage.book);
+    }
     function getBooksAccordingToFilter() {
         bookService.getBooksAccordingToFilter()
         .then(function(data) {

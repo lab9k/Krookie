@@ -5,19 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../../stylesheets/style.css" rel="stylesheet" type="text/css">
-    <title>Detailpagina van een boek</title>
+
+
+    <link href="../public/stylesheets/style.css" rel="stylesheet" type="text/css">
+    <title>Layout</title>
 </head>
-<h1>Detailpagina</h1>
 
 <body>
-    <!--Nu nog CDN maar moet weg!-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script type="text/javascript" src="../../javascripts/app/book/module.js"></script>
-    <script type="text/javascript" src="../../javascripts/app/book/bookService.js"></script>
-    <script type="text/javascript" src="../../javascripts/app/book/bookController.js"></script>
-    <script type="text/javascript" src="../../javascripts/app/book/bookViewController.js"></script>
-
+    <div data-ng-app="bookModule">
+        <div data-ng-controller="bookViewController">
+            <table>
+                <tr>
+                    <!--<th>Boeknaam</th>
+                    <th>Auteur</th>
+                    <th>weetje</th>
+                    <th>likes</th>
+                    <th>cover</th>-->
+                </tr>
+                <tr data-ng-model="chosenone">
+                    <!--<td>{{chosenone.title}}</td>
+                    <td>{{chosenone.author}}</td>
+                    <td>{{chosenone.fact}}</td>
+                    <td>{{chosenone.likes}}</td>-->
+                    <td><img src="{{chosenone.cover}}" width="500px"></img>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--Nu nog CDN maar moet weg!-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/book/module.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/book/bookService.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/book/bookController.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/book/bookViewController.js"></script>
+    </div>
 </body>
 
 </html>
