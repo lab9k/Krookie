@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CongratPage</title>
+	<link rel="stylesheet" type="text/css" href="../public/stylesheets/main.css">
+</head>
+
+<body data-ng-app="bookModule">
+	<div id="height-check" class="container background--red" data-ng-controller="bookViewController">
+		<canvas id="confetti"></canvas>
+		<div class="book shadow" data-ng-model="chosenone">
+			<img class="book__cover" src="{{chosenone.cover}}">
+		</div>
+		<svg class="book__placeholder__text" xmlns="http://www.w3.org/2000/svg" viewBox="-350 -750 1512.01 1800">
+			<defs>
+				<style>
+					.cls-1 {
+						fill: #fff;
+					}
+				</style>
+			</defs>
+			<title>Placeholder Text</title>
+			<g id="Laag_2" data-name="Laag 2">
+				<g id="Laag_1-2" data-name="Laag 1">
+					<path class="cls-1" d="M493.16.52s-73.1,1.15-121.8,6.59S175.36,3.61,90.56.52s-90,6.59-90,57-13.8,78.28,95.4,74.62,149.4-6.13,240.5.34,130.3.23,254.3,3.32,206.6,6.7,236.3-17,7.2-77.25,0-102.56c-3.2-11.4-2.1-10.94-79.5-8.48S555.66,1.21,493.16.52Z"
+					/>
+				</g>
+			</g>
+		</svg>
+		<div class="book__text">
+			<p>Proficiat! Je hebt de schat gevonden!</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../public/javascripts/angular.min.js"></script>
+	<script type="text/javascript" src="../public/javascripts/confetti.js"></script>
+	<script type="text/javascript" src="../public/javascripts/app/book/module.js"></script>
+	<script type="text/javascript" src="../public/javascripts/app/book/bookService.js"></script>
+	<script type="text/javascript" src="../public/javascripts/app/book/bookViewController.js"></script>
+</body>
+
+</html>
