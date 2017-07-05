@@ -1,5 +1,6 @@
 .avatar__swiper {
-    width: 50%;
+    width: 70%;
+    height: 40vw;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -14,7 +15,7 @@
             overflow: hidden;
             background-color: $red;
             img {
-                width: 50%;
+                width: 40%;
                 position: absolute;
                 left: 50%;
                 top: 40%;
@@ -22,17 +23,17 @@
             }
         }
         svg {
-            width: 50%;
+            width: 40%;
             fill: $white;
             position: absolute;
             left: 50%;
-            top: 40%;
+            top: 38%;
             transform: translate(-50%, 150%);
         }
         p {
             position: absolute;
             left: 50%;
-            top: 40%;
+            top: 42.5%;
             transform: translate(-50%, 220%);
             color: $red;
             font-size: 3vw;
@@ -61,71 +62,356 @@
 }
 
 .animation_container {
-    position:absolute;
-    width: 30vw;
-    height: 30vw;
-    left: 10vw;
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    left: 15vw;
+    top: -2vw;
+    background-color: $red;
     -webkit-animation: clockwiseSpin 8s infinite linear;
-
 }
 
 .circle1 {
-    width: 4vw;
+    width: 5vw;
     position:absolute;
-    left: 6.5vw;
-    top: 8.5vw;
+    left: 7.5vw;
+    top: 7.5vw;
     -webkit-animation: clockwiseSpin 2s infinite ease;
 }
 .circle2 {
-    width: 4vw;
+    width: 5vw;
     position:absolute;
-    left: 12.5vw;
-    top: 5vw;
+    left: 18vw;
+    top: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
 }
 .circle3 {
-    width: 4vw;
+    width: 7vw;
     position:absolute;
-    right: 6.5vw;
-    top: 8.5vw;
-    -webkit-animation: clockwiseSpin 2s infinite ease;
+    right: 7.5vw;
+    top: 7.5vw;
+    -webkit-animation: clockwiseSpin 5s infinite ease;
 }
 .circle4 {
-    width: 4vw;
+    width: 5vw;
     position:absolute;
     right: 4vw;
-    bottom: 13.5vw;
+    bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
 }
 .circle5 {
-    width: 4vw;
+    width: 6vw;
     position:absolute;
-    right: 6.5vw;
-    bottom: 8.5vw;
-    -webkit-animation: clockwiseSpin 2s infinite ease;
+    right: 7.5vw;
+    bottom: 7.5vw;
+    -webkit-animation: clockwiseSpin 3s infinite ease;
 }
 .circle6 {
     width: 4vw;
     position:absolute;
-    left: 12.5vw;
-    bottom: 5vw;
+    left: 18vw;
+    bottom: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
 }
 .circle7 {
-    width: 4vw;
+    width: 6vw;
     position:absolute;
-    left: 6.5vw;
-    bottom: 8.5vw;
-    -webkit-animation: clockwiseSpin 2s infinite ease;
+    left: 7.5vw;
+    bottom: 7.5vw;
+    -webkit-animation: clockwiseSpin 6s infinite ease;
 }
 .circle8 {
-    width: 4vw;
+    width: 5vw;
     position:absolute;
-    left: 5vw;
-    bottom: 13.5vw;
+    left: 4vw;
+    bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
 }
 
+.circle1-leaf {
+    width: 5vw;
+    position:absolute;
+    left: 7.5vw;
+    top: 7.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle2-leaf {
+    width: 5vw;
+    position:absolute;
+    left: 18vw;
+    top: 4vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle3-leaf {
+    width: 4vw;
+    position:absolute;
+    right: 7.5vw;
+    top: 7.5vw;
+    -webkit-animation: clockwiseSpin 5s infinite ease;
+}
+.circle4-leaf {
+    width: 5vw;
+    position:absolute;
+    right: 4vw;
+    bottom: 18vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle5-leaf {
+    width: 6vw;
+    position:absolute;
+    right: 7.5vw;
+    bottom: 7.5vw;
+    -webkit-animation: clockwiseSpin 3s infinite ease;
+}
+.circle6-leaf {
+    width: 4vw;
+    position:absolute;
+    left: 18vw;
+    bottom: 4vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle7-leaf {
+    width: 6vw;
+    position:absolute;
+    left: 7.5vw;
+    bottom: 7.5vw;
+    -webkit-animation: clockwiseSpin 6s infinite ease;
+}
+.circle8-leaf {
+    width: 5vw;
+    position:absolute;
+    left: 4vw;
+    bottom: 18vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+
+.circle1-cuffs {
+    width: 12vw;
+    position:absolute;
+    left: 4vw;
+    top: 7vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle2-cuffs {
+    width: 14vw;
+    position:absolute;
+    left: 13vw;
+    top: 2vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle3-cuffs {
+    width: 12vw;
+    position:absolute;
+    right: 4vw;
+    top: 7vw;
+    -webkit-animation: clockwiseSpin 5s infinite ease;
+}
+.circle4-cuffs {
+    width: 13vw;
+    position:absolute;
+    right: 0vw;
+    bottom: 15vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle5-cuffs {
+    width: 12vw;
+    position:absolute;
+    right: 4vw;
+    bottom: 7vw;
+    -webkit-animation: clockwiseSpin 3s infinite ease;
+}
+.circle6-cuffs {
+    width: 14vw;
+    position:absolute;
+    left: 13vw;
+    bottom: 0vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle7-cuffs {
+    width: 12vw;
+    position:absolute;
+    left: 4vw;
+    bottom: 7vw;
+    -webkit-animation: clockwiseSpin 6s infinite ease;
+}
+.circle8-cuffs {
+    width: 14vw;
+    position:absolute;
+    left: 0vw;
+    bottom: 15vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+
+.circle1-flower {
+    width: 12vw;
+    position:absolute;
+    left: 4vw;
+    top: 7vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle2-flower {
+    width: 14vw;
+    position:absolute;
+    left: 13vw;
+    top: 2vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle3-flower {
+    width: 12vw;
+    position:absolute;
+    right: 4vw;
+    top: 7vw;
+    -webkit-animation: clockwiseSpin 5s infinite ease;
+}
+.circle4-flower {
+    width: 13vw;
+    position:absolute;
+    right: 0vw;
+    bottom: 15vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle5-flower {
+    width: 12vw;
+    position:absolute;
+    right: 4vw;
+    bottom: 7vw;
+    -webkit-animation: clockwiseSpin 3s infinite ease;
+}
+.circle6-flower {
+    width: 14vw;
+    position:absolute;
+    left: 13vw;
+    bottom: 0vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle7-flower {
+    width: 12vw;
+    position:absolute;
+    left: 4vw;
+    bottom: 7vw;
+    -webkit-animation: clockwiseSpin 6s infinite ease;
+}
+.circle8-flower {
+    width: 14vw;
+    position:absolute;
+    left: 0vw;
+    bottom: 15vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+
+.circle1-sport {
+    width: 5vw;
+    position:absolute;
+    left: 7.5vw;
+    top: 7.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle2-sport {
+    width: 6vw;
+    position:absolute;
+    left: 16.5vw;
+    top: 4vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle3-sport {
+    width: 7vw;
+    position:absolute;
+    right: 7.5vw;
+    top: 7.5vw;
+    -webkit-animation: clockwiseSpin 5s infinite ease;
+}
+.circle4-sport {
+    width: 5vw;
+    position:absolute;
+    right: 4vw;
+    bottom: 18vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle5-sport {
+    width: 6vw;
+    position:absolute;
+    right: 7.5vw;
+    bottom: 7.5vw;
+    -webkit-animation: clockwiseSpin 3s infinite ease;
+}
+.circle6-sport {
+    width: 6vw;
+    position:absolute;
+    left: 16.5vw;
+    bottom: 4vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle7-sport {
+    width: 6vw;
+    position:absolute;
+    left: 7.5vw;
+    bottom: 7.5vw;
+    -webkit-animation: clockwiseSpin 6s infinite ease;
+}
+.circle8-sport {
+    width: 5vw;
+    position:absolute;
+    left: 4vw;
+    bottom: 18vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+
+.circle1-war {
+    width: 5vw;
+    position:absolute;
+    left: 7.5vw;
+    top: 7.5vw;
+    -webkit-animation: clockwiseSpin 2s infinite ease;
+}
+.circle2-war {
+    width: 6vw;
+    position:absolute;
+    left: 16.5vw;
+    top: 4vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle3-war {
+    width: 8vw;
+    position:absolute;
+    right: 7.5vw;
+    top: 7.5vw;
+    -webkit-animation: clockwiseSpin 5s infinite ease;
+}
+.circle4-war {
+    width: 5vw;
+    position:absolute;
+    right: 4vw;
+    bottom: 18vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle5-war {
+    width: 6vw;
+    position:absolute;
+    right: 7.5vw;
+    bottom: 7.5vw;
+    -webkit-animation: clockwiseSpin 3s infinite ease;
+}
+.circle6-war {
+    width: 6vw;
+    position:absolute;
+    left: 16.5vw;
+    bottom: 4vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
+.circle7-war {
+    width: 6vw;
+    position:absolute;
+    left: 7.5vw;
+    bottom: 7.5vw;
+    -webkit-animation: clockwiseSpin 6s infinite ease;
+}
+.circle8-war {
+    width: 8vw;
+    position:absolute;
+    left: 4vw;
+    bottom: 18vw;
+    -webkit-animation: clockwiseSpin 2s infinite linear;
+}
 
 
 @-webkit-keyframes clockwiseSpin {
