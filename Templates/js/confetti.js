@@ -1,7 +1,7 @@
 (function() {
   var COLORS, Confetti, NUM_CONFETTI, canvas, confetti, context, drawCircle, duration, i, progress, range, resizeWindow, xpos;
 
-  NUM_CONFETTI = 1000;
+  NUM_CONFETTI = 500;
 
   COLORS = ['#20b6d4', '#1579fb', '#00ebeb', '#E5BB00'];
 
@@ -13,9 +13,11 @@
 
   context = canvas.getContext("2d");
 
-  window.w = 1500;
+  
 
-  window.h = 1200;
+  window.w = window.innerWidth;
+
+  window.h = window.innerHeight;
 
 
 
@@ -63,8 +65,8 @@
       this.style = COLORS[~~range(0, 4)];
       this.deg = range(10, 120);
       this.r = ~~range(4, 10);
-      this.width = 4 * this.r;
-      this.height = this.r / 1;
+      this.width = innerWidth / 40;
+      this.height = innerWidth / 120;
       this.replace();
     }
 
@@ -119,8 +121,7 @@
   step();
 
 }).call(this);
- window.setTimeout(function(){
-        // Move to a new location or you can do something else
-        window.location.href = "  ";
+  window.setTimeout(function(){
+  window.location.href = "../pages/knowledge.html";
 }, 4000);
 

@@ -596,7 +596,7 @@ a .button {
   -webkit-filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.5));
   filter: drop-shadow(2px 3px 5px rgba(0, 0, 0, 0.5)); }
 
-.avatar {
+.push__message {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -626,8 +626,12 @@ a .button {
   margin-top: 2vw;
   object-fit: contain; }
 
-canvas {
-  width: 100vw; }
+#confetti {
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 100%; }
 
 .avatar__text {
   filter: none;
