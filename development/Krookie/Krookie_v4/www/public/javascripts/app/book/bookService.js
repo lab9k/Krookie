@@ -15,10 +15,10 @@ function bookService($http) {
         },
 
         getAllBooks: function () {
-            return $http.get('https://gist.githubusercontent.com/brendero/14234947e3e30ca37a67de9a2a1e79bf/raw/f2ede728040eba6f2b8d31dfbcce80c38f3e5ce5/Krookie.json');
+            return $http.get('https://gist.githubusercontent.com/brendero/14234947e3e30ca37a67de9a2a1e79bf/raw/f91dcfc7b9372b778c1e1ab9baa1e154e7e7093c/Krookie.json');
         },
         getBooksAccordingToFilter: function() {
-            return $http.get('https://gist.githubusercontent.com/brendero/14234947e3e30ca37a67de9a2a1e79bf/raw/f2ede728040eba6f2b8d31dfbcce80c38f3e5ce5/Krookie.json')
+            return $http.get('https://gist.githubusercontent.com/brendero/14234947e3e30ca37a67de9a2a1e79bf/raw/f91dcfc7b9372b778c1e1ab9baa1e154e7e7093c/Krookie.json')
         }
     };
 }

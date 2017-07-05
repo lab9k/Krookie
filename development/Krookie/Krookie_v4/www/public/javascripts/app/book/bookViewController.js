@@ -4,9 +4,9 @@ bookViewController.$inject = ['$scope', 'bookService'];
 
 function bookViewController($scope, bookService) {
     $scope.books = [];
-
     getBooksAccordingToFilter();
-
+    $scope.chosenone = JSON.parse(window.localStorage.book);
+    
     function getBooksAccordingToFilter() {
         bookService.getBooksAccordingToFilter()
         .then(function(data) {
@@ -28,5 +28,8 @@ function bookViewController($scope, bookService) {
             })
             
         })
+    }
+    $scope.randomizeArray = function() {
+        window.localStorage.book = JSON.stringify($scope.books[Math.floor(Math.random()*$scope.books.length)]);
     }
 }

@@ -9,23 +9,18 @@
 </head>
 
 <body>
-    <div data-ng-app="filterModule">
-            <div data-ng-controller="filterViewController">
-                <div ng-repeat="value in category">
-                    Category-id: {{value}}
-                </div>
-                <div ng-repeat="value in readingskill">
-                    readingskill-id: {{value}}
-                </div>
+    <div data-ng-app="bookModule">
+            <div data-ng-controller="bookViewController">
+                <a href="books.html" data-ng-click="randomizeArray()">Books</a>
         </div>
     </div>
 
     <!--Nu nog CDN maar moet weg!-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script type="text/javascript" src="../public/javascripts/app/book/module.js"></script>
-    <script type="text/javascript" src="../public/javascripts/app/filter/filterService.js"></script>
-    <script type="text/javascript" src="../public/javascripts/app/filter/filterController.js"></script>
-    <script type="text/javascript" src="../public/javascripts/app/filter/filterViewController.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/bookService.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/bookController.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/bookViewController.js"></script>
 </body>
 
 </html>
