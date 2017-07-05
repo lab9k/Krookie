@@ -2,30 +2,48 @@
 <html>
 
 <head>
+
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no,
 		shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 	<meta-data android:name="disable_hardware_filtering" android:value="true" />
-	<title>Krookie | Introductie</title>
-	<link rel="stylesheet" type="text/css" href="public/stylesheets/main.css">
+	<link href="public/stylesheets/style.css" rel="stylesheet" type="text/css">
+	<title>Krookie</title>
+	<script>
+		// Redirect console.log to Evothings Workbench.
+		if (window.hyper && window.hyper.log) {
+			console.log = hyper.log
+		}
+	</script>
+
 	<script src="cordova.js"></script>
 	<script src="public/javascripts/jquery-3.2.1.js"></script>
 	<script src="libs/evothings/evothings.js"></script>
 	<script src="libs/evothings/ui/ui.js"></script>
 	<script src="public/javascripts/beacon.js"></script>
+
 </head>
 
 <body ontouchstart="">
-	<div class="container background--white">
-		<a href="views/class.html">
-			<div class="logo">
-				<img src="public/images/logo.gif">
-			</div>
-		</a>
-		<div class="credits">
-			<p><a href="views/class.html">Start de Applicatie</a> of ga naar de <a href="development.html">development sectie</a></p>
-		</div>
-	</div>
+	<!-- ontouchstart="" enables low-delay CSS transitions. -->
+
+	<header>
+		<button class="back" onclick="history.back()">
+			close connection
+		</button>
+	</header>
+
+	<h1>Development section</h1>
+
+	<h2>Angular Test</h2>
+	<a href="./views/edit_record.html">Test Angular with a short list editor</a><br><br>
+	<br><br>
+	<a href="./views/class.html">Begin de applicatie</a><br><br>
+
+	<h2>Beacon Test</h2>
+	<p id="warning">Zeker UUID gespecifieerd? Wacht even want kan even duren. Als het langer duurt dan 5 seconden werkt het waarschijnlijk niet.</p>
+	<ul id="found-beacons" class="dynamic"></ul>
+
 	<script src="cordova.js"></script>
 	<script type="text/javascript" src="public/javascripts/angular.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
