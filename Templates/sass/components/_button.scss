@@ -152,7 +152,7 @@
         position: absolute;
         z-index: 1;
         left: 30%;
-        top: -65%;
+        top: -100%;
         transform: translate(-50%, -50%);
     }
 }
@@ -163,13 +163,13 @@
         position: absolute;
         z-index: 1;
         left: 70%;
-        top: -65%;
+        top: -100%;
         transform: translate(-50%, -50%);
     }
 }
 
 .placeholder__selector {
-    width: 20vw;
+    width: 23vw;
     position: relative;
     left: 50%;
     top: 10%;
@@ -185,7 +185,7 @@
         z-index: 9999;
         text-align: center;
         left: 50%;
-        top: -47.5%;
+        top: -40%;
         font-size: 3vw;
         transform: translate(-50%);
     }
@@ -221,18 +221,21 @@
 
 .button__bottom--3-1 {
     position: absolute;
-    left: 10%;
-    bottom: 4%;
+    left: 5%;
+    bottom: 30%;
+    width: 30%;
 }
 
 .button__bottom--3-2 {
     position: absolute;
-    left: 40%;
-    bottom: 4%;
+    left: 35%;
+    bottom: 30%;
+    width: 30%;
 }
 
 .button__bottom--3-3 {
     position: absolute;
-    left: 70%;
-    bottom: 4%;
+    left: 65%;
+    bottom: 30%;
+    width: 30%;
 }

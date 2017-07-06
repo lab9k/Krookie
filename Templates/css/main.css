@@ -435,6 +435,12 @@ a:focus {
 a:active {
   outline: 0; }
 
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
 /**
  * Clear inner floats
  */
@@ -489,6 +495,14 @@ a:active {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */ }
+
+.a:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1); }
 
 .background--darkblue {
   background-color: #1579fb; }
@@ -1349,7 +1363,7 @@ a .button {
   position: absolute;
   z-index: 1;
   left: 30%;
-  top: -65%;
+  top: -100%;
   transform: translate(-50%, -50%); }
 
 .student__right svg {
@@ -1357,11 +1371,11 @@ a .button {
   position: absolute;
   z-index: 1;
   left: 70%;
-  top: -65%;
+  top: -100%;
   transform: translate(-50%, -50%); }
 
 .placeholder__selector {
-  width: 20vw;
+  width: 23vw;
   position: relative;
   left: 50%;
   top: 10%;
@@ -1376,7 +1390,7 @@ a .button {
     z-index: 9999;
     text-align: center;
     left: 50%;
-    top: -47.5%;
+    top: -40%;
     font-size: 3vw;
     transform: translate(-50%); }
 
@@ -1406,15 +1420,18 @@ a .button {
 
 .button__bottom--3-1 {
   position: absolute;
-  left: 10%;
-  bottom: 4%; }
+  left: 5%;
+  bottom: 30%;
+  width: 30%; }
 
 .button__bottom--3-2 {
   position: absolute;
-  left: 40%;
-  bottom: 4%; }
+  left: 35%;
+  bottom: 30%;
+  width: 30%; }
 
 .button__bottom--3-3 {
   position: absolute;
-  left: 70%;
-  bottom: 4%; }
+  left: 65%;
+  bottom: 30%;
+  width: 30%; }

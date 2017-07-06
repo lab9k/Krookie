@@ -331,7 +331,7 @@
                 </div>
             </a>
             <!--Button - Terug-->
-            <a href="reading-skill.html" class="button button--white button__bottom--2">
+            <a href="#0" class="button button--white button__bottom--2 button__reading-skill">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 405.3" style="enable-background:new 0 0 841.9 405.3;" xml:space="preserve">
                     <path d="M491.3,.5c-73.2-5.7-202.4-2.4-293,18.9S31.7,50.4,3.8,186.8S104.4,410.7,324.7,405c220.3-5.7,405.9,1,479.7-91.8 s21.2-189-10.1-224.7C763,52.7,716.6,20.1,491.3,2.5z"/>
                 </svg>
@@ -340,7 +340,7 @@
                 </div>
             </a>
             <!--Button - Go-->
-            <a href="tutorial.html" class="button button--white button__bottom--3">
+            <a href="#0" class="button button--white button__bottom--3 button__tutorial">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 405.3" style="enable-background:new 0 0 841.9 405.3;" xml:space="preserve">
                     <path d="M491.3,.5c-73.2-5.7-202.4-2.4-293,18.9S31.7,50.4,3.8,186.8S104.4,410.7,324.7,405c220.3-5.7,405.9,1,479.7-91.8 s21.2-189-10.1-224.7C763,52.7,716.6,20.1,491.3,2.5z"/>
                 </svg>
@@ -374,7 +374,19 @@
         speed: 1200,
         loop: true,
     });
+    var changeClass = $('.animated');
+    $('.button__reading-skill').click( function(){
+        changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+        setTimeout(function(){
+            window.location.href="../pages/reading-skill.html";
+            }, 1000);
+    });
+    $('.button__tutorial').click( function(){
+        changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+        setTimeout(function(){
+            window.location.href="../pages/tutorial.html";
+            }, 1000);
+    });
     </script>
-    <script src="../js/animations.js"></script>
 </body>
 </html>

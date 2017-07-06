@@ -8,21 +8,46 @@
 <body>
     <div class="animated fadeInLeft">
         <div class="container background--red">
-            <a href="../pages/index.html">
+            <a class="button__stop" href="#0">
                 <img class="button" src="../assets/images/stop.svg">
             </a>
             <div class="center">
                 <div class="title_overview">
                     <img src="../assets/images/watwiljenudoen.svg">
                 </div>
-                <a href="../pages/avatar-slider.html">
+                <a class="button__newfriend" href="#0">
                     <img src="../assets/images/newfriend.svg">
                 </a>
-                <a href="../pages/thermometer.html">
+                <a class="button__newbook" href="#0">
                     <img src="../assets/images/nieuweschat.svg">
                 </a>
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+    <script>
+        var changeClass = $('.animated');
+		$('.button__stop').click( function(){
+            changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+
+            setTimeout(function(){
+                window.location.href="../pages/index.html";
+                }, 1000);
+        });
+        $('.button__newfriend').click( function(){
+            changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+
+            setTimeout(function(){
+                window.location.href="../pages/avatar-slider.html";
+                }, 1000);
+        });
+        $('.button__newbook').click( function(){
+            changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+
+            setTimeout(function(){
+                window.location.href="../pages/thermometer.html";
+                }, 1000);
+        });
+    </script>
 </body>
 </html>
