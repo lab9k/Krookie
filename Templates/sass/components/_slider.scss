@@ -67,7 +67,6 @@
     height: 40vw;
     left: 15vw;
     top: -2vw;
-    background-color: $red;
     -webkit-animation: clockwiseSpin 8s infinite linear;
 }
 
@@ -193,10 +192,10 @@
     -webkit-animation: clockwiseSpin 2s infinite ease;
 }
 .circle2-cuffs {
-    width: 14vw;
+    width: 6vw;
     position:absolute;
-    left: 13vw;
-    top: 2vw;
+    left: 17vw;
+    top: 5vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
 }
 .circle3-cuffs {
@@ -221,10 +220,10 @@
     -webkit-animation: clockwiseSpin 3s infinite ease;
 }
 .circle6-cuffs {
-    width: 14vw;
+    width: 6vw;
     position:absolute;
-    left: 13vw;
-    bottom: 0vw;
+    left: 17vw;
+    bottom: 5vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
 }
 .circle7-cuffs {

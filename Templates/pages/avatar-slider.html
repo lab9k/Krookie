@@ -6,26 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <!-- jQuery -->
-    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
-
-    
 </head>
 <body>
-    	<div class="container background--red">
-            
+    <div class="animated fadeInLeft">
+        <div class="container background--red">
             <div class="message__top">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 113.4" style="enable-background:new 0 0 841.9 113.4;" xml:space="preserve">
                     <path d="M491.5,0.4c0,0-72.9,0.9-121.5,5.3S174.4,2.9,89.9,0.4S0.1,5.7,0.1,46.4s-13.7,68.2,95.1,65.2s149-4.9,239.9,0.3 s130-4.8,253.6-2.3c123.6,2.5,217.4,9.3,248.6-5.1c5.1-2.3,7.3-76.3,2-91.3c-3.2-9.2-17.1-8.8-94.2-6.9S553.8,1,491.5,0.4z"/>
                 </svg>
                 <p>Kies een vriendje en ga samen op reis!</p>
             </div>
-            
-            
             <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            
+            <div class="swiper-pagination">
+            </div>
             <!-- Swiper -->
             <div class="avatar__swiper">
                 <div class="swiper-container">
@@ -313,7 +308,6 @@
                     </div>
                 </div>
             </div>
-
             <!--Button for Swiper - Right-->
             <a href="#" class="button__small button__small--right">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 649.1 595.3" style="enable-background:new 0 0 649.1 595.3;" xml:space="preserve">
@@ -325,7 +319,6 @@
                     </svg>
                 </div>
             </a>
-
             <!--Button for Swiper - Left-->
             <a href="#" class="button__small button__small--left">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 649.1 595.3" style="enable-background:new 0 0 649.1 595.3;" xml:space="preserve">
@@ -337,7 +330,6 @@
                     </svg>
                 </div>
             </a>
-
             <!--Button - Terug-->
             <a href="reading-skill.html" class="button button--white button__bottom--2">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 405.3" style="enable-background:new 0 0 841.9 405.3;" xml:space="preserve">
@@ -347,7 +339,6 @@
                     <p>Terug</p>
                 </div>
             </a>
-
             <!--Button - Go-->
             <a href="tutorial.html" class="button button--white button__bottom--3">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 405.3" style="enable-background:new 0 0 841.9 405.3;" xml:space="preserve">
@@ -356,12 +347,13 @@
                 <div class="button__placeholder">
                     <p>Go</p>
                 </div>
-            </a
-
-
+            </a>
+        </div>              
+    </div>
+    <!-- jQuery -->
+    <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
     <!-- Swiper JS -->
     <script src="../js/swiper.min.js"></script>
-
     <!-- Initialize Swiper -->
     <script>
     var swiper = new Swiper('.swiper-container', {
