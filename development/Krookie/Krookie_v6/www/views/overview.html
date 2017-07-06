@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Krookie | Overview</title>
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/main.css">
+</head>
+
+<body data-ng-app="bookModule">
+    <div class="container background--red" data-ng-controller="bookViewController">
+        <a href="../index.html">
+            <img class="button" src="../public/images/stop.svg">
+        </a>
+        <div class="center">
+            <div class="title_overview">
+                <img src="../public/images/watwiljenudoen.svg">
+            </div>
+            <a href="avatar.html">
+                <img src="../public/images/newfriend.svg">
+            </a>
+            <a href="book.html" data-ng-click="randomizeArray()">
+                <img src="../public/images/nieuweschat.svg">
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../public/javascripts/angular.min.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/module.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/bookService.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/bookViewController.js"></script>
+</body>
+
+</html>
