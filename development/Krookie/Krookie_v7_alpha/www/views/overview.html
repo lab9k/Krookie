@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Krookie | Overview</title>
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/animate.min.css">
+</head>
+
+<body data-ng-app="bookModule">
+    <div class="animated fadeInLeft container background--red" data-ng-controller="bookViewController">
+        <a href="#0" class="stop__button">
+            <img class="button" src="../public/images/stop.svg">
+        </a>
+        <div class="center">
+            <div class="title_overview">
+                <img src="../public/images/watwiljenudoen.svg">
+            </div>
+            <a href="#0" class="newfriend__button">
+                <img src="../public/images/newfriend.svg">
+            </a>
+            <a href="#0" class="playagain__button" data-ng-click="randomizeArray()">
+                <img src="../public/images/nieuweschat.svg">
+            </a>
+        </div>
+    </div>
+    <script src="../public/javascripts/jquery-3.2.1.js"></script>
+    <script>
+        var changeClass = $('.animated');
+        $('.stop__button').click(function () {
+            changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+            setTimeout(function () {
+                window.location.href = "../index.html";
+            }, 1000);
+        });
+        $('.newfriend__button').click(function () {
+            changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+            setTimeout(function () {
+                window.location.href = "avatar.html";
+            }, 1000);
+        });
+        $('.playagain__button').click(function () {
+            changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+            setTimeout(function () {
+                window.location.href = "book.html";
+            }, 1000);
+        });
+    </script>
+    <script type="text/javascript" src="../public/javascripts/angular.min.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/module.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/bookService.js"></script>
+    <script type="text/javascript" src="../public/javascripts/app/book/bookViewController.js"></script>
+</body>
+
+</html>

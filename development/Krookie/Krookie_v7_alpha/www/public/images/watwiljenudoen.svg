@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="19901.512 30.972 388.988 128.463">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e55042;
+        font-size: 30px;
+        font-family: FrancoisOne-Regular, Francois One;
+      }
+    </style>
+  </defs>
+  <g id="Group_190" data-name="Group 190" transform="translate(19584 -586)">
+    <g id="Group_189" data-name="Group 189" transform="translate(-57.817 116.534)">
+      <path id="Path_21" data-name="Path 21" class="cls-1" d="M11.4,57.7c12.175-2.68,123.257-8.387,166.253-16.578s94.649-8.47,109.5-8.97,76.228-10.871,83.356-9.71,12.06,13.16,13.577,20.678,1.684,20.1-.8,24.951-40.278,14.114-63.51,15.306-73.071,6.893-92.359,9.58-24.825.539-60.06,4.628-75.2,4.48-94.279,8.346-44.117,6.078-53.516,5.314S2.439,96.631,3.706,91.129-.776,60.376,11.4,57.7Z" transform="matrix(0.995, 0.105, -0.105, 0.995, 383.562, 477.855)"/>
+    </g>
+    <text id="Wat_wil_je_nu_gaan_doen_" data-name="Wat wil je nu gaan doen?" class="cls-2" transform="translate(511.925 692.93)"><tspan x="-154.05" y="0">Wat wil je nu gaan doen?</tspan></text>
+  </g>
+</svg>
