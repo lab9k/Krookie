@@ -16,7 +16,7 @@
 </head>
 
 <body data-ng-app="bookModule">
-    <div class="animated fadeInLeft container background--red" data-ng-controller="filterController">
+    <div class="animated fadeIn container background--red" data-ng-controller="filterController">
         <div class="message__top">
             <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 841.9 113.4" style="enable-background:new 0 0 841.9 113.4;" xml:space="preserve">
@@ -592,13 +592,27 @@
         </a>
 
     </div>
-    <script src="../public/javascripts/jquery-3.2.1.js"></script>
     <script>
-        var changeClass = $('.animated');
-        $('.animated__button').click(function () {
-            changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
-            setTimeout(function () {
-                window.location.href = "avatar.html";
+        var changeClass = document.getElementsByClassName('animated')[0];
+        document.getElementsByClassName('animated__button')[0].addEventListener('click', function(){
+            changeClass.classList.remove('fadeIn');
+            changeClass.classList.add('fadeOut');
+            setTimeout(function(){
+                window.location.href="avatar.html";
+            }, 1000);
+        });
+        document.getElementsByClassName('animated__button')[1].addEventListener('click', function(){
+            changeClass.classList.remove('fadeIn');
+            changeClass.classList.add('fadeOut');
+            setTimeout(function(){
+                window.location.href="avatar.html";
+            }, 1000);
+        });
+        document.getElementsByClassName('animated__button')[2].addEventListener('click', function(){
+            changeClass.classList.remove('fadeIn');
+            changeClass.classList.add('fadeOut');
+            setTimeout(function(){
+                window.location.href="avatar.html";
             }, 1000);
         });
     </script>

@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<div class="animated fadeInLeft container background--red" style="background-color:white">
+	<div class="animated fadeIn container background--red" style="background-color:white">
 		<video id="bgvid" playsinline muted>
 			<source src="../public/videos/Krookie_Filmpje.mp4" type="video/mp4">
 		</video>
@@ -37,7 +37,7 @@
 	<script>
 		var changeClass = $('.animated');
 		$('.overslaan__button').click(function () {
-			changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
+			changeClass.removeClass('fadeIn').addClass('fadeOut');
 			setTimeout(function () {
 				window.location.href = "class.html";
 			}, 1000);

@@ -13,9 +13,9 @@
 </head>
 
 <body data-ng-app="bookModule">
-    <div class="animated fadeInLeft container background--red">
+    <div class="animated fadeIn container background--red">
         <div  data-ng-controller="bookViewController" data-ng-model="cover">
-        <img class="bookcover" ng-src="{{cover}}">
+            <img id="custom-animation-duration" class="bookcover animated fadeIn" ng-src="{{cover}}">
         </div>
 
         <div class="message__book">
@@ -55,13 +55,20 @@
         <script type="text/javascript" src="../public/javascripts/app/book/bookViewController.js"></script>
         <script type="text/javascript" src="../public/javascripts/app/book/likeController.js"></script>
     </div>
-    <script src="../public/javascripts/jquery-3.2.1.js"></script>
     <script>
-        var changeClass = $('.animated');
-        $('.button__small').click(function () {
-            changeClass.removeClass('fadeInLeft').addClass('fadeOutRight');
-            setTimeout(function () {
-                window.location.href = "overview.html";
+        var changeClass = document.getElementsByClassName('animated')[0];
+        document.getElementsByClassName('book__yes')[0].addEventListener('click', function(){
+            changeClass.classList.remove('fadeIn');
+            changeClass.classList.add('fadeOut');
+            setTimeout(function(){
+                window.location.href="overview.html";
+            }, 1000);
+        });
+        document.getElementsByClassName('book__no')[0].addEventListener('click', function(){
+            changeClass.classList.remove('fadeIn');
+            changeClass.classList.add('fadeOut');
+            setTimeout(function(){
+                window.location.href="overview.html";
             }, 1000);
         });
     </script>

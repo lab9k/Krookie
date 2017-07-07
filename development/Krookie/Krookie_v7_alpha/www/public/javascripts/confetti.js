@@ -123,5 +123,5 @@
 }).call(this);
   window.setTimeout(function(){
   window.location.href = "knowledge.html";
-}, 4000);
+}, 4500);
 

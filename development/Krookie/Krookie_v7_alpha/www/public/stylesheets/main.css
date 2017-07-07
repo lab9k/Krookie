@@ -1516,3 +1516,7 @@ a .button {
   left: 65%;
   bottom: 30%;
   width: 30%; }
+
+#custom-animation-duration {
+  animation-delay: 1s;
+}

@@ -8,10 +8,10 @@
 </head>
 
 <body data-ng-app="bookModule">
-	<div id="height-check" class="animated fadeInLeft container background--red" data-ng-controller="bookViewController">
+	<div id="height-check" class="animated fadeIn container background--red" data-ng-controller="bookViewController">
 		<canvas id="confetti"></canvas>
 		<div class="book shadow" data-ng-model="cover">
-			<img class="book__cover" ng-src="{{cover}}">
+			<img id="custom-animation-duration" class="book__cover animated fadeIn" ng-src="{{cover}}">
 		</div>
 		<svg class="book__placeholder__text" xmlns="http://www.w3.org/2000/svg" viewBox="-350 -750 1512.01 1800">
 			<defs>
