@@ -68,6 +68,9 @@
     left: 15vw;
     top: -2vw;
     -webkit-animation: clockwiseSpin 8s infinite linear;
+    -moz-animation: clockwiseSpin 8s infinite linear;
+    -ms-animation: clockwiseSpin 8s infinite linear;
+    -o-animation: clockwiseSpin 8s infinite linear;
 }
 
 .circle1 {
@@ -76,6 +79,9 @@
     left: 7.5vw;
     top: 7.5vw;
     -webkit-animation: clockwiseSpin 2s infinite ease;
+    -moz-animation: clockwiseSpin 2s infinite linear;
+    -ms-animation: clockwiseSpin 2s infinite linear;
+    -o-animation: clockwiseSpin 2s infinite linear;
 }
 .circle2 {
     width: 5vw;
@@ -83,6 +89,7 @@
     left: 18vw;
     top: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle3 {
     width: 7vw;
@@ -90,6 +97,7 @@
     right: 7.5vw;
     top: 7.5vw;
     -webkit-animation: clockwiseSpin 5s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle4 {
     width: 5vw;
@@ -97,6 +105,7 @@
     right: 4vw;
     bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle5 {
     width: 6vw;
@@ -104,6 +113,7 @@
     right: 7.5vw;
     bottom: 7.5vw;
     -webkit-animation: clockwiseSpin 3s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle6 {
     width: 4vw;
@@ -111,6 +121,7 @@
     left: 18vw;
     bottom: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle7 {
     width: 6vw;
@@ -118,6 +129,7 @@
     left: 7.5vw;
     bottom: 7.5vw;
     -webkit-animation: clockwiseSpin 6s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle8 {
     width: 5vw;
@@ -125,6 +137,7 @@
     left: 4vw;
     bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 
 .circle1-leaf {
@@ -133,6 +146,7 @@
     left: 7.5vw;
     top: 7.5vw;
     -webkit-animation: clockwiseSpin 2s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle2-leaf {
     width: 5vw;
@@ -140,6 +154,7 @@
     left: 18vw;
     top: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle3-leaf {
     width: 4vw;
@@ -147,6 +162,7 @@
     right: 7.5vw;
     top: 7.5vw;
     -webkit-animation: clockwiseSpin 5s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle4-leaf {
     width: 5vw;
@@ -154,6 +170,7 @@
     right: 4vw;
     bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle5-leaf {
     width: 6vw;
@@ -161,6 +178,7 @@
     right: 7.5vw;
     bottom: 7.5vw;
     -webkit-animation: clockwiseSpin 3s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle6-leaf {
     width: 4vw;
@@ -168,6 +186,7 @@
     left: 18vw;
     bottom: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle7-leaf {
     width: 6vw;
@@ -175,6 +194,7 @@
     left: 7.5vw;
     bottom: 7.5vw;
     -webkit-animation: clockwiseSpin 6s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle8-leaf {
     width: 5vw;
@@ -182,6 +202,7 @@
     left: 4vw;
     bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 
 .circle1-cuffs {
@@ -190,6 +211,7 @@
     left: 4vw;
     top: 7vw;
     -webkit-animation: clockwiseSpin 2s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle2-cuffs {
     width: 6vw;
@@ -197,6 +219,7 @@
     left: 17vw;
     top: 5vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle3-cuffs {
     width: 12vw;
@@ -204,6 +227,7 @@
     right: 4vw;
     top: 7vw;
     -webkit-animation: clockwiseSpin 5s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle4-cuffs {
     width: 13vw;
@@ -211,6 +235,7 @@
     right: 0vw;
     bottom: 15vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle5-cuffs {
     width: 12vw;
@@ -218,6 +243,7 @@
     right: 4vw;
     bottom: 7vw;
     -webkit-animation: clockwiseSpin 3s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle6-cuffs {
     width: 6vw;
@@ -225,6 +251,7 @@
     left: 17vw;
     bottom: 5vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle7-cuffs {
     width: 12vw;
@@ -232,6 +259,7 @@
     left: 4vw;
     bottom: 7vw;
     -webkit-animation: clockwiseSpin 6s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle8-cuffs {
     width: 14vw;
@@ -239,6 +267,7 @@
     left: 0vw;
     bottom: 15vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 
 .circle1-flower {
@@ -247,6 +276,7 @@
     left: 4vw;
     top: 7vw;
     -webkit-animation: clockwiseSpin 2s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle2-flower {
     width: 14vw;
@@ -254,6 +284,7 @@
     left: 13vw;
     top: 2vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle3-flower {
     width: 12vw;
@@ -261,6 +292,7 @@
     right: 4vw;
     top: 7vw;
     -webkit-animation: clockwiseSpin 5s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle4-flower {
     width: 13vw;
@@ -268,6 +300,7 @@
     right: 0vw;
     bottom: 15vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle5-flower {
     width: 12vw;
@@ -275,6 +308,7 @@
     right: 4vw;
     bottom: 7vw;
     -webkit-animation: clockwiseSpin 3s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle6-flower {
     width: 14vw;
@@ -282,6 +316,7 @@
     left: 13vw;
     bottom: 0vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle7-flower {
     width: 12vw;
@@ -289,6 +324,7 @@
     left: 4vw;
     bottom: 7vw;
     -webkit-animation: clockwiseSpin 6s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle8-flower {
     width: 14vw;
@@ -296,6 +332,7 @@
     left: 0vw;
     bottom: 15vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 
 .circle1-sport {
@@ -304,6 +341,7 @@
     left: 7.5vw;
     top: 7.5vw;
     -webkit-animation: clockwiseSpin 2s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle2-sport {
     width: 6vw;
@@ -311,6 +349,7 @@
     left: 16.5vw;
     top: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle3-sport {
     width: 7vw;
@@ -318,6 +357,7 @@
     right: 7.5vw;
     top: 7.5vw;
     -webkit-animation: clockwiseSpin 5s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle4-sport {
     width: 5vw;
@@ -325,6 +365,7 @@
     right: 4vw;
     bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle5-sport {
     width: 6vw;
@@ -332,6 +373,7 @@
     right: 7.5vw;
     bottom: 7.5vw;
     -webkit-animation: clockwiseSpin 3s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle6-sport {
     width: 6vw;
@@ -339,6 +381,7 @@
     left: 16.5vw;
     bottom: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle7-sport {
     width: 6vw;
@@ -346,6 +389,7 @@
     left: 7.5vw;
     bottom: 7.5vw;
     -webkit-animation: clockwiseSpin 6s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle8-sport {
     width: 5vw;
@@ -353,6 +397,7 @@
     left: 4vw;
     bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 
 .circle1-war {
@@ -361,6 +406,7 @@
     left: 7.5vw;
     top: 7.5vw;
     -webkit-animation: clockwiseSpin 2s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle2-war {
     width: 6vw;
@@ -368,6 +414,7 @@
     left: 16.5vw;
     top: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle3-war {
     width: 8vw;
@@ -375,6 +422,7 @@
     right: 7.5vw;
     top: 7.5vw;
     -webkit-animation: clockwiseSpin 5s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle4-war {
     width: 5vw;
@@ -382,6 +430,7 @@
     right: 4vw;
     bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle5-war {
     width: 6vw;
@@ -389,6 +438,7 @@
     right: 7.5vw;
     bottom: 7.5vw;
     -webkit-animation: clockwiseSpin 3s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle6-war {
     width: 6vw;
@@ -396,6 +446,7 @@
     left: 16.5vw;
     bottom: 4vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 .circle7-war {
     width: 6vw;
@@ -403,6 +454,7 @@
     left: 7.5vw;
     bottom: 7.5vw;
     -webkit-animation: clockwiseSpin 6s infinite ease;
+    -webkit-backface-visibility: hidden;
 }
 .circle8-war {
     width: 8vw;
@@ -410,6 +462,7 @@
     left: 4vw;
     bottom: 18vw;
     -webkit-animation: clockwiseSpin 2s infinite linear;
+    -webkit-backface-visibility: hidden;
 }
 
 

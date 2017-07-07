@@ -73,3 +73,7 @@ a {
 .a:active {
   -webkit-transform: scale3d(0.9, 0.9, 1);
 }
+
+.animated {
+  -webkit-backface-visibility: hidden;
+}
