@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>vriendje kiezen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../public/stylesheets/swiper.css">
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/animate.min.css">
+</head>
+
+<body>
+    <div class=" animated fadeIn container background--red" data-ng-app="bookModule" data-ng-controller="filterController">
+
+        <div class="message__top">
+            <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 841.9 113.4" style="enable-background:new 0 0 841.9 113.4;" xml:space="preserve">
+                <path d="M491.5,0.4c0,0-72.9,0.9-121.5,5.3S174.4,2.9,89.9,0.4S0.1,5.7,0.1,46.4s-13.7,68.2,95.1,65.2s149-4.9,239.9,0.3 s130-4.8,253.6-2.3c123.6,2.5,217.4,9.3,248.6-5.1c5.1-2.3,7.3-76.3,2-91.3c-3.2-9.2-17.1-8.8-94.2-6.9S553.8,1,491.5,0.4z"
+                />
+            </svg>
+            <p>Kies een vriendje en ga samen op reis!</p>
+        </div>
+
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Swiper -->
+        <div class="avatar__swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" value="2">
+                        <div class="animation_container">
+                            <div class="circle1-leaf">
+                                <img src="../public/images/Blad_2.svg" />
+                            </div>
+                            <div class="circle2-leaf">
+                                <img src="../public/images/Blad_1.svg" />
+                            </div>
+                            <div class="circle3-leaf">
+                                <img src="../public/images/Blad_3.svg" />
+                            </div>
+                            <div class="circle4-leaf">
+                                <img src="../public/images/Blad_1.svg" />
+                            </div>
+                            <div class="circle5-leaf">
+                                <img src="../public/images/Blad_2.svg" />
+                            </div>
+                            <div class="circle6-leaf">
+                                <img src="../public/images/Blad_3.svg" />
+                            </div>
+                            <div class="circle7-leaf">
+                                <img src="../public/images/Blad_2.svg" />
+                            </div>
+                            <div class="circle8-leaf">
+                                <img src="../public/images/Blad_1.svg" />
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img class="selected_avatar" src="../public/images/Aboriginal.svg">
+                        </div>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"
+                            />
+                        </svg>
+                        <p>Bindi</p>
+                    </div>
+                    <div class="swiper-slide" value="1">
+                        <div class="animation_container">
+                            <div class="circle1-cuffs">
+                                <img src="../public/images/Handboeien_1.svg" />
+                            </div>
+                            <div class="circle2-cuffs">
+                                <img src="../public/images/Handboeien_1.svg" />
+                            </div>
+                            <div class="circle3-cuffs">
+                                <img src="../public/images/Handboeien_2.svg" />
+                            </div>
+                            <div class="circle4-cuffs">
+                                <img src="../public/images/Handboeien_1.svg" />
+                            </div>
+                            <div class="circle5-cuffs">
+                                <img src="../public/images/Handboeien_2.svg" />
+                            </div>
+                            <div class="circle6-cuffs">
+                                <img src="../public/images/Handboeien_2.svg" />
+                            </div>
+                            <div class="circle7-cuffs">
+                                <img src="../public/images/Handboeien_1.svg" />
+                            </div>
+                            <div class="circle8-cuffs">
+                                <img src="../public/images/Handboeien_2.svg" />
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img class="selected_avatar" src="../public/images/Boef.svg">
+                        </div>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"
+                            />
+                        </svg>
+                        <p>Sven</p>
+                    </div>
+                    <div class="swiper-slide" value="3">
+                        <div class="animation_container">
+                            <div class="circle1">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1091 538.7" style="enable-background:new 0 0 1091 538.7;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-kippebeentje{fill:#EEEAD5;}
+                                        .st1-kippebeentje{fill:#D18F00;}
+                                    </style>
+                                    <g>
+                                        <path class="st0-kippebeentje" d="M223.2,181.2c0,0,298.9,21.3,380.4,5.9c0,0,37.8-107.5,139.4-98.1s111.1,137,65,179.6c0,0,88,106.4-28.4,170.1 c-99.2,54.3-174.9-85.1-174.9-85.1s-267-5.9-381.6,2.4c0,0-34.3,67.3-74.4,87.4S7,439.9-0.1,354.9c0,0-10.6-48.3,33.1-85 c0,0-59.1-61.5-23.6-121.8S109.8,74.9,150,98.5S223.2,167,223.2,181.2z"/>
+                                    </g>
+                                    <ellipse class="st1-kippebeentje" cx="737" cy="269.3" rx="354" ry="269.3"/>
+                                </svg>
+                            </div>
+                            <div class="circle2">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 363.9" style="enable-background:new 0 0 841.9 363.9;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-beentje{fill:#EEEAD5;}
+                                    </style>
+                                    <path class="st0-beentje" d="M225.2,93.8c0,0,298.9,21.3,380.4,5.9c0,0,37.8-107.5,139.4-98.1s111.1,137,65,179.6c0,0,88,106.4-28.4,170.1 c-99.2,54.3-174.9-85.1-174.9-85.1s-267-5.9-381.6,2.4c0,0-34.3,67.3-74.4,87.4S9,352.5,1.9,267.5c0,0-10.6-48.3,33.1-85 c0,0-59.1-61.5-23.6-121.8S111.8-12.5,152,11.1S225.2,79.6,225.2,93.8z"/>
+                                </svg>
+                            </div>
+                            <div class="circle3">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1091 538.7" style="enable-background:new 0 0 1091 538.7;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-kippebeentje{fill:#EEEAD5;}
+                                        .st1-kippebeentje{fill:#D18F00;}
+                                    </style>
+                                    <g>
+                                        <path class="st0-kippebeentje" d="M223.2,181.2c0,0,298.9,21.3,380.4,5.9c0,0,37.8-107.5,139.4-98.1s111.1,137,65,179.6c0,0,88,106.4-28.4,170.1 c-99.2,54.3-174.9-85.1-174.9-85.1s-267-5.9-381.6,2.4c0,0-34.3,67.3-74.4,87.4S7,439.9-0.1,354.9c0,0-10.6-48.3,33.1-85 c0,0-59.1-61.5-23.6-121.8S109.8,74.9,150,98.5S223.2,167,223.2,181.2z"/>
+                                    </g>
+                                    <ellipse class="st1-kippebeentje" cx="737" cy="269.3" rx="354" ry="269.3"/>
+                                </svg>
+                            </div>
+                            <div class="circle4">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 363.9" style="enable-background:new 0 0 841.9 363.9;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-beentje{fill:#EEEAD5;}
+                                    </style>
+                                    <path class="st0-beentje" d="M225.2,93.8c0,0,298.9,21.3,380.4,5.9c0,0,37.8-107.5,139.4-98.1s111.1,137,65,179.6c0,0,88,106.4-28.4,170.1 c-99.2,54.3-174.9-85.1-174.9-85.1s-267-5.9-381.6,2.4c0,0-34.3,67.3-74.4,87.4S9,352.5,1.9,267.5c0,0-10.6-48.3,33.1-85 c0,0-59.1-61.5-23.6-121.8S111.8-12.5,152,11.1S225.2,79.6,225.2,93.8z"/>
+                                </svg>
+                            </div>
+                            <div class="circle5">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1091 538.7" style="enable-background:new 0 0 1091 538.7;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-kippebeentje{fill:#EEEAD5;}
+                                        .st1-kippebeentje{fill:#D18F00;}
+                                    </style>
+                                    <g>
+                                        <path class="st0-kippebeentje" d="M223.2,181.2c0,0,298.9,21.3,380.4,5.9c0,0,37.8-107.5,139.4-98.1s111.1,137,65,179.6c0,0,88,106.4-28.4,170.1 c-99.2,54.3-174.9-85.1-174.9-85.1s-267-5.9-381.6,2.4c0,0-34.3,67.3-74.4,87.4S7,439.9-0.1,354.9c0,0-10.6-48.3,33.1-85 c0,0-59.1-61.5-23.6-121.8S109.8,74.9,150,98.5S223.2,167,223.2,181.2z"/>
+                                    </g>
+                                    <ellipse class="st1-kippebeentje" cx="737" cy="269.3" rx="354" ry="269.3"/>
+                                </svg>
+                            </div>
+                            <div class="circle6">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 841.9 363.9" style="enable-background:new 0 0 841.9 363.9;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0-beentje{fill:#EEEAD5;}
+                                </style>
+                                <path class="st0-beentje" d="M225.2,93.8c0,0,298.9,21.3,380.4,5.9c0,0,37.8-107.5,139.4-98.1s111.1,137,65,179.6c0,0,88,106.4-28.4,170.1
+                                    c-99.2,54.3-174.9-85.1-174.9-85.1s-267-5.9-381.6,2.4c0,0-34.3,67.3-74.4,87.4S9,352.5,1.9,267.5c0,0-10.6-48.3,33.1-85
+                                    c0,0-59.1-61.5-23.6-121.8S111.8-12.5,152,11.1S225.2,79.6,225.2,93.8z"/>
+                                </svg>                            </div>
+                            <div class="circle7">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1091 538.7" style="enable-background:new 0 0 1091 538.7;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-kippebeentje{fill:#EEEAD5;}
+                                        .st1-kippebeentje{fill:#D18F00;}
+                                    </style>
+                                    <g>
+                                        <path class="st0-kippebeentje" d="M223.2,181.2c0,0,298.9,21.3,380.4,5.9c0,0,37.8-107.5,139.4-98.1s111.1,137,65,179.6c0,0,88,106.4-28.4,170.1 c-99.2,54.3-174.9-85.1-174.9-85.1s-267-5.9-381.6,2.4c0,0-34.3,67.3-74.4,87.4S7,439.9-0.1,354.9c0,0-10.6-48.3,33.1-85 c0,0-59.1-61.5-23.6-121.8S109.8,74.9,150,98.5S223.2,167,223.2,181.2z"/>
+                                    </g>
+                                    <ellipse class="st1-kippebeentje" cx="737" cy="269.3" rx="354" ry="269.3"/>
+                                </svg>
+                            </div>
+                            <div class="circle8">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 363.9" style="enable-background:new 0 0 841.9 363.9;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-beentje{fill:#EEEAD5;}
+                                    </style>
+                                    <path class="st0-beentje" d="M225.2,93.8c0,0,298.9,21.3,380.4,5.9c0,0,37.8-107.5,139.4-98.1s111.1,137,65,179.6c0,0,88,106.4-28.4,170.1 c-99.2,54.3-174.9-85.1-174.9-85.1s-267-5.9-381.6,2.4c0,0-34.3,67.3-74.4,87.4S9,352.5,1.9,267.5c0,0-10.6-48.3,33.1-85 c0,0-59.1-61.5-23.6-121.8S111.8-12.5,152,11.1S225.2,79.6,225.2,93.8z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img class="selected_avatar" src="../public/images/Hond.svg">
+                        </div>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"
+                            />
+                        </svg>
+                        <p>Woefie</p>
+                    </div>
+                    <div class="swiper-slide" value="4">
+                        <div class="animation_container">
+                            <div class="circle1">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-bal-1{fill:#45267F;}
+                                        .st1-bal-2{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+                                    </style>
+                                    <g id="Laag_1_1_">
+                                    </g>
+                                    <g id="Laag_2">
+                                        <circle class="st0-bal-1" cx="420.9" cy="297.6" r="297.6"/>
+                                        <ellipse transform="matrix(0.7375 -0.6753 0.6753 0.7375 -24.3423 218.7983)" class="st1-bal-1" cx="269.3" cy="140.7" rx="42" ry="22.7"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="circle2">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-bal-2{fill:#42ACE2;}
+                                        .st1-bal-2{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+                                    </style>
+                                    <g id="Laag_1_1_">
+                                    </g>
+                                    <g id="Laag_2">
+                                        <circle class="st0-bal-2" cx="420.9" cy="297.6" r="297.6"/>
+                                        <ellipse transform="matrix(0.7375 -0.6753 0.6753 0.7375 -24.3423 218.7983)" class="st1-bal-2" cx="269.3" cy="140.7" rx="42" ry="22.7"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="circle3">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-bal-3{fill:#FEEB14;}
+                                        .st1-bal-3{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+                                    </style>
+                                    <g id="Laag_2">
+                                        <circle class="st0-bal-3" cx="420.9" cy="297.6" r="297.6"/>
+                                        <ellipse transform="matrix(0.7375 -0.6753 0.6753 0.7375 -24.3423 218.7983)" class="st1-bal-3" cx="269.3" cy="140.7" rx="42" ry="22.7"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="circle4">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-bal-4{fill:#3B9449;}
+                                        .st1-bal-4{opacity:0.5;fill:#FFFFFF;}
+                                    </style>
+                                    <g id="Laag_2">
+                                        <circle class="st0-bal-4" cx="420.9" cy="297.6" r="297.6"/>
+                                        <ellipse transform="matrix(0.7375 -0.6753 0.6753 0.7375 -24.3234 218.8062)" class="st1-bal-4" cx="269.3" cy="140.7" rx="42" ry="22.7"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="circle5">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-bal-1{fill:#45267F;}
+                                        .st1-bal-2{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+                                    </style>
+                                    <g id="Laag_2">
+                                        <circle class="st0-bal-1" cx="420.9" cy="297.6" r="297.6"/>
+                                        <ellipse transform="matrix(0.7375 -0.6753 0.6753 0.7375 -24.3423 218.7983)" class="st1-bal-1" cx="269.3" cy="140.7" rx="42" ry="22.7"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="circle6">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-bal-2{fill:#42ACE2;}
+                                        .st1-bal-2{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+                                    </style>
+                                    <g id="Laag_2">
+                                        <circle class="st0-bal-2" cx="420.9" cy="297.6" r="297.6"/>
+                                        <ellipse transform="matrix(0.7375 -0.6753 0.6753 0.7375 -24.3423 218.7983)" class="st1-bal-2" cx="269.3" cy="140.7" rx="42" ry="22.7"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="circle7">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-bal-3{fill:#FEEB14;}
+                                        .st1-bal-3{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+                                    </style>
+                                    <g id="Laag_2">
+                                        <circle class="st0-bal-3" cx="420.9" cy="297.6" r="297.6"/>
+                                        <ellipse transform="matrix(0.7375 -0.6753 0.6753 0.7375 -24.3423 218.7983)" class="st1-bal-3" cx="269.3" cy="140.7" rx="42" ry="22.7"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="circle8">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-bal-4{fill:#3B9449;}
+                                        .st1-bal-4{opacity:0.5;fill:#FFFFFF;}
+                                    </style>
+                                    <g id="Laag_2">
+                                        <circle class="st0-bal-4" cx="420.9" cy="297.6" r="297.6"/>
+                                        <ellipse transform="matrix(0.7375 -0.6753 0.6753 0.7375 -24.3234 218.8062)" class="st1-bal-4" cx="269.3" cy="140.7" rx="42" ry="22.7"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img class="selected_avatar" src="../public/images/Clown.svg">
+                        </div>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"
+                            />
+                        </svg>
+                        <p>Wally</p>
+                    </div>
+                    <div class="swiper-slide" value="8">
+                        <div class="animation_container">
+                            <div class="circle1-sport">
+                                <img src="../public/images/Basketbal.svg" />
+                            </div>
+                            <div class="circle2-sport">
+                                <img src="../public/images/Rugby.svg" />
+                            </div>
+                            <div class="circle3-sport">
+                                <img src="../public/images/Voetbal.svg" />
+                            </div>
+                            <div class="circle4-sport">
+                                <img src="../public/images/Volleybal.svg" />
+                            </div>
+                            <div class="circle5-sport">
+                                <img src="../public/images/Basketbal.svg" />
+                            </div>
+                            <div class="circle6-sport">
+                                <img src="../public/images/Rugby.svg" />
+                            </div>
+                            <div class="circle7-sport">
+                                <img src="../public/images/Voetbal.svg" />
+                            </div>
+                            <div class="circle8-sport">
+                                <img src="../public/images/Volleybal.svg" />
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img class="selected_avatar" src="../public/images/Loper.svg">
+                        </div>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"
+                            />
+                        </svg>
+                        <p>Jamie</p>
+                    </div>
+                    <div class="swiper-slide" value="7">
+                        <div class="animation_container">
+                            <div class="circle1-war">
+                                <img src="../public/images/Geld.svg" />
+                            </div>
+                            <div class="circle2-war">
+                                <img src="../public/images/Bom.svg" />
+                            </div>
+                            <div class="circle3-war">
+                                <img src="../public/images/Zwaard.svg" />
+                            </div>
+                            <div class="circle4-war">
+                                <img src="../public/images/Bom.svg" />
+                            </div>
+                            <div class="circle5-war">
+                                <img src="../public/images/Geld.svg" />
+                            </div>
+                            <div class="circle6-war">
+                                <img src="../public/images/Bom.svg" />
+                            </div>
+                            <div class="circle7-war">
+                                <img src="../public/images/Geld.svg" />
+                            </div>
+                            <div class="circle8-war">
+                                <img src="../public/images/Zwaard.svg" />
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img class="selected_avatar" src="../public/images/Piraat.svg">
+                        </div>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"
+                            />
+                        </svg>
+                        <p>Jack</p>
+                    </div>
+                    <div class="swiper-slide" value="5">
+                        <div class="animation_container">
+                            <div class="circle1-flower">
+                                <img src="../public/images/Bloempje_1.svg" />
+                            </div>
+                            <div class="circle2-flower">
+                                <img src="../public/images/Bloempje_2.svg" />
+                            </div>
+                            <div class="circle3-flower">
+                                <img src="../public/images/Bloempje_3.svg" />
+                            </div>
+                            <div class="circle4-flower">
+                                <img src="../public/images/Bloempje_1.svg" />
+                            </div>
+                            <div class="circle5-flower">
+                                <img src="../public/images/Bloempje_3.svg" />
+                            </div>
+                            <div class="circle6-flower">
+                                <img src="../public/images/Bloempje_1.svg" />
+                            </div>
+                            <div class="circle7-flower">
+                                <img src="../public/images/Bloempje_2.svg" />
+                            </div>
+                            <div class="circle8-flower">
+                                <img src="../public/images/Bloempje_3.svg" />
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img class="selected_avatar" src="../public/images/Hippie.svg">
+                        </div>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"
+                            />
+                        </svg>
+                        <p>Betty</p>
+                    </div>
+                    <div class="swiper-slide" value="6">
+                        <div class="animation_container">
+                            <div class="circle1">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-ster-1{fill:#C99B00;}
+                                    </style>
+                                    <polygon class="st0-ster-1" points="297.6,0 402.9,192.4 595.3,297.6 402.9,402.9 297.6,595.3 192.4,402.9 0,297.6 192.4,192.4 "/>
+                                </svg>
+                            </div>
+                            <div class="circle2">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-ster-3{fill:#FFEB00;}
+                                    </style>
+                                    <polygon class="st0-ster-3" points="297.6,0 402.9,192.4 595.3,297.6 402.9,402.9 297.6,595.3 192.4,402.9 0,297.6 192.4,192.4 "/>
+                                </svg>
+                            </div>
+                            <div class="circle3">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-ster-1{fill:#C99B00;}
+                                    </style>
+                                    <polygon class="st0-ster-1" points="297.6,0 402.9,192.4 595.3,297.6 402.9,402.9 297.6,595.3 192.4,402.9 0,297.6 192.4,192.4 "/>
+                                </svg>
+                            </div>
+                            <div class="circle4">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-ster-2{fill:#F6EA78;}
+                                    </style>
+                                    <polygon class="st0-ster-2" points="297.6,0 402.9,192.4 595.3,297.6 402.9,402.9 297.6,595.3 192.4,402.9 0,297.6 192.4,192.4 "/>
+                                </svg>
+                            </div>
+                            <div class="circle5">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-ster-1{fill:#C99B00;}
+                                    </style>
+                                    <polygon class="st0-ster-1" points="297.6,0 402.9,192.4 595.3,297.6 402.9,402.9 297.6,595.3 192.4,402.9 0,297.6 192.4,192.4 "/>
+                                </svg>
+                            </div>
+                            <div class="circle6">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-ster-2{fill:#F6EA78;}
+                                    </style>
+                                    <polygon class="st0-ster-2" points="297.6,0 402.9,192.4 595.3,297.6 402.9,402.9 297.6,595.3 192.4,402.9 0,297.6 192.4,192.4 "/>
+                                </svg>
+                            </div>
+                            <div class="circle7">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-ster-3{fill:#FFEB00;}
+                                    </style>
+                                    <polygon class="st0-ster-3" points="297.6,0 402.9,192.4 595.3,297.6 402.9,402.9 297.6,595.3 192.4,402.9 0,297.6 192.4,192.4 "/>
+                                </svg>
+                            </div>
+                            <div class="circle8">
+                                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0-ster-2{fill:#F6EA78;}
+                                    </style>
+                                    <polygon class="st0-ster-2" points="297.6,0 402.9,192.4 595.3,297.6 402.9,402.9 297.6,595.3 192.4,402.9 0,297.6 192.4,192.4 "/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <img src="../public/images/Fee.svg">
+                        </div>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"/>
+                        </svg>
+                        <p>Fee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--Button for Swiper - Right-->
+        <a href="#" class="button__small button__small--right">
+            <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 649.1 595.3" style="enable-background:new 0 0 649.1 595.3;" xml:space="preserve">
+                <path class="st0" d="M327.5,0c-58.3,0.4-205.8,0.6-266,101.6S1.2,303,1.2,303s-21.4,183.8,101,243.4s235,48.5,293.2,48.5 s235-38.8,246.6-149.5s17.5-312.7-60.2-372.9S393.6-0.5,327.5,0z"
+                />
+            </svg>
+            <div class="button__arrow button__arrow--right">
+                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 432.1 595.3" style="enable-background:new 0 0 432.1 595.3;" xml:space="preserve">
+                    <path class="st0" d="M215.3,295c0,0,131.7-101.2,167.7-137.2s74.8-47.1,26.3-98.4s-88.7-95.6-169.1-15.2s-104,95.6-140,123.4 S4.6,253.4,4.6,263.1c0,9.7-15.2,27.7,9.7,54.1s137.2,148.3,164.9,177.4s105.3,88,127.5,98.4s44.4-16.6,66.5-49.9 c22.2-33.3,29.9-43.1,34.7-54.1c6-13.9-11.1-44.4-52.7-70.7C313.7,392,215.5,308.9,215.3,295z"
+                    />
+                </svg>
+            </div>
+        </a>
+
+        <!--Button for Swiper - Left-->
+        <a href="#" class="button__small button__small--left">
+            <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 649.1 595.3" style="enable-background:new 0 0 649.1 595.3;" xml:space="preserve">
+                <path class="st0" d="M327.5,0c-58.3,0.4-205.8,0.6-266,101.6S1.2,303,1.2,303s-21.4,183.8,101,243.4s235,48.5,293.2,48.5 s235-38.8,246.6-149.5s17.5-312.7-60.2-372.9S393.6-0.5,327.5,0z"
+                />
+            </svg>
+            <div class="button__arrow button__arrow--left">
+                <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 432.1 595.3" style="enable-background:new 0 0 432.1 595.3;" xml:space="preserve">
+                    <path class="st0" d="M215.3,295c0,0,131.7-101.2,167.7-137.2s74.8-47.1,26.3-98.4s-88.7-95.6-169.1-15.2s-104,95.6-140,123.4 S4.6,253.4,4.6,263.1c0,9.7-15.2,27.7,9.7,54.1s137.2,148.3,164.9,177.4s105.3,88,127.5,98.4s44.4-16.6,66.5-49.9 c22.2-33.3,29.9-43.1,34.7-54.1c6-13.9-11.1-44.4-52.7-70.7C313.7,392,215.5,308.9,215.3,295z"
+                    />
+                </svg>
+            </div>
+        </a>
+
+        <!--Button - Terug-->
+        <a href="#0" class="button button--white button__bottom--2 button__reading-skill">
+            <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 841.9 405.3" style="enable-background:new 0 0 841.9 405.3;" xml:space="preserve">
+                <path d="M491.3,.5c-73.2-5.7-202.4-2.4-293,18.9S31.7,50.4,3.8,186.8S104.4,410.7,324.7,405c220.3-5.7,405.9,1,479.7-91.8 s21.2-189-10.1-224.7C763,52.7,716.6,20.1,491.3,2.5z"
+                />
+            </svg>
+            <div class="button__placeholder">
+                <p>Terug</p>
+            </div>
+        </a>
+        <!--Button - Go-->
+        <a href="#0" class="button button--white button__bottom--3 button__tutorial" id="clicker1" data-ng-click="storeCategory(category)">
+            <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 841.9 405.3" style="enable-background:new 0 0 841.9 405.3;" xml:space="preserve">
+                <path d="M491.3,.5c-73.2-5.7-202.4-2.4-293,18.9S31.7,50.4,3.8,186.8S104.4,410.7,324.7,405c220.3-5.7,405.9,1,479.7-91.8 s21.2-189-10.1-224.7C763,52.7,716.6,20.1,491.3,2.5z"
+                />
+            </svg>
+            <div class="button__placeholder">
+                <p>Go</p>
+            </div>
+            <div class="hidden" data-ng-app="bookModule" id="clicker2" data-ng-controller="bookViewController">
+                <a href="book.html" data-ng-click="randomizeArray()"></a>
+            </div>
+        </a>
+
+        <script type="text/javascript" src="../public/javascripts/jquery-3.2.1.js"></script>
+        <script src="../public/javascripts/swiper.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1,
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                nextButton: '.button__small--right',
+                prevButton: '.button__small--left',
+                spaceBetween: 30,
+                effect: 'coverflow',
+                coverflow: {
+                    rotate: 120,
+                    stretch: 0,
+                    depth: 1000,
+                    modifier: 1,
+                    slideShadows: false
+                },
+                speed: 1200,
+                loop: true,
+            });
+            var changeClass = document.getElementsByClassName('animated')[0];
+            document.getElementsByClassName('button__reading-skill')[0].addEventListener('click', function(){
+                changeClass.classList.remove('fadeIn');
+                changeClass.classList.add('fadeOut');
+                setTimeout(function(){
+                    window.location.href="class.html";
+                    }, 1000);
+            });
+            document.getElementsByClassName('button__tutorial')[0].addEventListener('click', function(){
+                changeClass.classList.remove('fadeIn');
+                changeClass.classList.add('fadeOut');
+                setTimeout(function(){
+                    window.location.href="book.html";
+                    }, 1000);
+            });
+            document.querySelector('#clicker1').addEventListener('click', function(){
+                console.log('i eat ass');
+                document.querySelector("#clicker2").click();
+                changeClass.classList.remove('fadeIn');
+                changeClass.classList.add('fadeOut');
+                setTimeout(function(){
+                    window.location.href="book.html";
+                }, 1000);
+            });
+        </script>
+
+        <script type="text/javascript" src="../public/javascripts/animations.js"></script>
+        <script type="text/javascript" src="../public/javascripts/angular.min.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/book/module.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/filter/filterService.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/filter/filterController.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/book/bookService.js"></script>
+        <script type="text/javascript" src="../public/javascripts/app/book/bookViewController.js"></script>
+</body>
+
+</html>
