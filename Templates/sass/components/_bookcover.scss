@@ -6,7 +6,7 @@
     transform: translate(-50%,-50%);
 }
 
-.message__book {
+.message__knowledge {
     position: absolute;
     left: 50%;
     top: 80%;
@@ -21,6 +21,26 @@
         text-align: center;
         left: 50%;
         top: 50%;
+        font-size: 3vw;
+        transform: translate(-50%,-75%);
+    }
+}
+
+.message__book {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    svg {
+        fill: $white;
+        width: 50vw;
+    }
+    p {
+        position: absolute;
+        width: 40vw;
+        text-align: center;
+        left: 50%;
+        top: 20%;
         font-size: 3vw;
         transform: translate(-50%,-75%);
     }

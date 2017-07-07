@@ -668,20 +668,20 @@ a .button {
   fill: #e85143; }
 
 .shake {
-  animation: shake 0.2s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
+  animation: shake 0.1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px; }
 
 @keyframes shake {
   0% {
-    transform: translate3d(-1px, 0, 0); }
+    transform: translate3d(0px, 0, 0); }
   25% {
-    transform: translate3d(-3px, 0, 0); }
+    transform: translate3d(-2px, 0, 0); }
   50% {
-    transform: translate3d(4px, 0, 0); }
+    transform: translate3d(0px, 0, 0); }
   75% {
-    transform: translate3d(3px, 0, 0); } }
+    transform: translate3d(2px, 0, 0); } }
 
 .blue-fill .fill {
   fill: #1579fb; }
@@ -801,6 +801,23 @@ a .button {
   top: 50%;
   transform: translate(-50%, -50%); }
 
+.message__knowledge {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%); }
+  .message__knowledge svg {
+    fill: #FFF;
+    width: 50vw; }
+  .message__knowledge p {
+    position: absolute;
+    width: 40vw;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    font-size: 3vw;
+    transform: translate(-50%, -75%); }
+
 .message__book {
   position: absolute;
   left: 50%;
@@ -814,7 +831,7 @@ a .button {
     width: 40vw;
     text-align: center;
     left: 50%;
-    top: 50%;
+    top: 20%;
     font-size: 3vw;
     transform: translate(-50%, -75%); }
 
