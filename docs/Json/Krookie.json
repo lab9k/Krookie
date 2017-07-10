@@ -1,0 +1,207 @@
+{
+"books": [
+{
+"id": "1",
+"author": "Jef mc jef",
+"title": "my name jeff",
+"fact": "he's like the mexican wolverin",
+"ISBN": 9789020986822,
+"beacon": {
+               "main": "F7826DA6-4FA2-4E98-8024-BC5B71E0893E",
+               "surrounding": [
+                                "8DEEFBB9-F738-4297-8040-96668BB44281",
+                                "A0B13730-3A9A-11E3-AA6E-0800200C9A66",
+                                "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
+                              ]
+          }
+},
+{
+"id": "2",
+"author": "Marcellus wallas",
+"title": "DO i LOOK LIKE A BITCH?",
+"fact": "mercellus wallace does not look like a bitch",
+"ISBN": 9786041012240,
+"beacon": {
+               "main": "F7826DA6-4FA2-4E98-8024-BC5B71E0893E",
+               "surrounding": [
+                                "8DEEFBB9-F738-4297-8040-96668BB44281",
+                                "A0B13730-3A9A-11E3-AA6E-0800200C9A66",
+                                "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
+                              ]
+          }
+},
+{
+"id": "3",
+"author": "Adriaan glibert",
+"title": "How i suck my ow dick",
+"fact": "Dit is een leuk weetje, moet van API komen.",
+"ISBN": 9789024556533,
+"beacon": {
+               "main": "A4950001-C5B1-4B44-B512-1370F02D74DE",
+               "surrounding": [
+                                "A7118AC8-D831-41FA-8AFD-93EBB85B6F1E",
+                                "8DEEFBB9-F738-4297-8040-96668BB44281",
+                                "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
+                              ]
+          }
+},
+{
+"id": "4",
+"author": "kjhkj",
+"title": "dkjfkh",
+"fact": "Dit is een leuk weetje, moet van API komen.",
+"ISBN": 9789059088061,
+"beacon": {
+               "main": "F7826DA6-4FA2-4E98-8024-BC5B71E0893E",
+               "surrounding": [
+                                "8DEEFBB9-F738-4297-8040-96668BB44281",
+                                "A0B13730-3A9A-11E3-AA6E-0800200C9A66",
+                                "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
+                              ]
+          }
+},
+{
+"id": "5",
+"author": "Brent",
+"title": "My name",
+"fact": "Dit is een leuk weetje, moet van API komen.",
+"ISBN": 9788375087123,
+"beacon": {
+               "main": "F7826DA6-4FA2-4E98-8024-BC5B71E0893E",
+               "surrounding": [
+                                "8DEEFBB9-F738-4297-8040-96668BB44281",
+                                "A0B13730-3A9A-11E3-AA6E-0800200C9A66",
+                                "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
+                              ]
+          }
+}
+],
+"readingskill": [
+    {
+      "id": "1",
+      "name": "0-5jaar"
+    },
+    {
+      "id": "2",
+      "name": "7 jaar"
+    },
+    {
+       "id": "3",
+       "name": "8-11 jaar"
+    }
+],
+"category": [
+  {
+    "Id": "1",
+    "name": "Detective"
+  },
+  {
+      "Id": "2",
+      "name": "Andere Culturen"
+  }, 
+  {
+      "Id": "3",
+      "name": "Dieren"
+  }, 
+  {
+      "Id": "4",
+      "name": "Humor"
+  },
+  {
+      "Id": "5",
+      "name": "Liefde"
+  },
+  {
+      "Id": "6",
+      "name": "Magie"
+  },
+  {
+      "Id": "7",
+      "name": "Oorlog Historisch"
+  },
+  {
+      "Id": "8",
+      "name": "Sport"
+  },
+  {
+      "Id": "9",
+      "name": "Vriendschap"
+  }
+],
+"books_has_category": [
+    {
+        "book_id": "1",
+        "category_id": "2"
+    },
+    {
+        "book_id": "1",
+        "category_id": "6"
+    },
+    {
+        "book_id": "2",
+        "category_id": "4"
+    },
+    {
+        "book_id": "2",
+        "category_id": "8"
+    },
+    {
+        "book_id": "3",
+        "category_id": "2"
+    },
+    {
+        "book_id": "3",
+        "category_id": "5"
+    },
+    {
+        "book_id": "3",
+        "category_id": "9"
+    },
+    {
+        "book_id": "4",
+        "category_id": "1"
+    },
+    {
+        "book_id": "4",
+        "category_id": "7"
+    },
+    {
+        "book_id": "5",
+        "category_id": "3"
+    },
+    {
+        "book_id": "5",
+        "category_id": "1"
+    }
+],
+"books_has_readingskill": [
+    {
+        "book_id": "1",
+        "readingskill_id": "2"
+    },
+    {
+        "book_id": "1",
+        "readingskill_id": "1"
+    },
+    {
+        "book_id": "2",
+        "readingskill_id": "3"
+    },
+    {
+        "book_id": "3",
+        "readingskill_id": "2"
+    },
+    {
+        "book_id": "4",
+        "readingskill_id": "1"
+    },
+    {
+        "book_id": "4",
+        "readingskill_id": "2"
+    },
+    {
+        "book_id": "5",
+        "readingskill_id": "1"
+    }
+]
+}
