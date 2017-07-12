@@ -184,7 +184,7 @@ function beaconViewController($scope, beaconService) {
             // Voor elk object (ontvangen beaconsignaal) van voorbije 3 seconden gaan we..
             for (var i = 0; i < beaconsArray.length; i++) {
                 //Een unieke key gebruiken
-                var localKey = 'BeaconMetUUID:' + beaconsArray[i].uuid;
+                var localKey = beaconsArray[i].uuid;
                 //Kijken of die Key al bestaat in dit object en zo ja voegen we de huidige rssi toe aan de array horende bij de key/beacon
                 //Zo neen maken we een nieuwe key en voegen daar een array aan toe met de rssi waarde
                 if (pollsPerBeacon.hasOwnProperty(localKey)) {
@@ -193,31 +193,31 @@ function beaconViewController($scope, beaconService) {
                     pollsPerBeacon[localKey] = [beaconsArray[i].rssi];
                 }
             }
-            alert(JSON.stringify(pollsPerBeacon));
+
+            var closestID;
+            var highestAverage = 1;
+            angular.forEach(pollsPerBeacon, function (value, key) {
+                //value is array met rssi waardes
+                //key is BeaconMetUuid: uuid
+                var localAverage = averageValue(value);
+                if (localAverage < highestAverage) {
+                    highestAverage = localAverage;
+                    closestID = key;
+                    console.log(`highest: ${highestAverage} type: ${typeof highestAverage}
+                                local: ${localAverage} type: ${typeof localAverage}`);
+                    console.log(closestID);
+                }
+            });
+            return closestID;
         }
 
         function averageValue(arr) {
-            var sums = {},
-                counts = {},
-                allAverageValues = [],
-                rssi;
+            var sum = 0;
             for (var i = 0; i < arr.length; i++) {
-                rssi = arr[i].rssi;
-                if (!(rssi in sums)) {
-                    sums[rssi] = 0;
-                    counts[rssi] = 0;
-                }
-                sums[rssi] += arr[i].value;
-                counts[rssi]++;
+                sum += arr[i];
             }
-
-            for (rssi in sums) {
-                allAverageValues.push({
-                    rssiValue: rssi,
-                    value: sums[rssi] / counts[rssi]
-                });
-            }
-            console.log(allAverageValues);
+            sum /= arr.length;
+            return sum;
         }
         return app;
     })();
