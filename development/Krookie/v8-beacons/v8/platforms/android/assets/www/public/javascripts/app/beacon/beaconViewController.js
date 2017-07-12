@@ -6,32 +6,37 @@ function beaconViewController($scope, beaconService) {
     var app = (function () {
         // Application object.
         var app = {};
-
+        // We definieren wat globale variabelen.
         var regions = [];
         var surroundingBeacons = [];
         var mainBeacon = {};
+        // We nemen de beacons uit de JSON file dat horen bij het boek. 
+        // Maken een onderscheid tussen mainBeacons en surroundingBeacons
         getAllBeacons();
+        //We definieren nog globale variabelen.
         var beacons = {};
         var beaconsArray = [];
         var updateTimer = null;
-        var updateStack = null;
-
         var normalisationStack = [];
 
-
+        // We zullen alle functies hier alleen maar uitvoeren als device ready is.
         app.initialize = function () {
             document.addEventListener(
                 'deviceready',
+                //Plugin inladen, scannen, relevante beacons in beaconsArray steken en de temperatuur elke seconde updaten.
                 onDeviceReady,
                 false);
         };
 
         function onDeviceReady() {
+            //We laden de iBeacon Plugin in.
             window.locationManager = cordova.plugins.locationManager;
+            //We beginnen te scannen naar beacons in de buurt dat horen bij het gekozen boek.
             startScan();
-
+            //We maken beaconsArray dat een Array is van objecten. 
+            //(beacons is een object van objecten waar elk objectje de info is van al de beacons dat gemeten worden en in de region worden gespecifieerd.)
             beaconsArray = Object.values(beacons);
-            // updateStack = setInterval(collectValues, 100);
+            //Elke seconde updateTemperature uitvoeren.
             updateTimer = setInterval(updateTemperature, 1000);
         }
 
@@ -39,13 +44,18 @@ function beaconViewController($scope, beaconService) {
             var delegate = new locationManager.Delegate();
             // Called continuously when ranging beacons.
             delegate.didRangeBeaconsInRegion = function (pluginResult) {
+                // Voor elke beacon dat de plugin leest gaan we..
                 for (var i in pluginResult.beacons) {
+                    //Eén beacon opslaan in een variabele
                     var beacon = pluginResult.beacons[i];
+                    //Een unieke key maken.
                     var key = beacon.uuid + ':' + beacon.major + ':' + beacon.minor;
+                    //De beacon toevoegen aan het beacons object
                     beacons[key] = beacon;
                     if (beaconsArray.length > 30) {
                         beaconsArray = beaconsArray.slice(10, beaconsArray.length);
                     }
+                    //Zolang 
                     beaconsArray.push(beacon);
 
 
@@ -67,18 +77,6 @@ function beaconViewController($scope, beaconService) {
             }
         }
 
-        /*  function collectValues() {
-              var timeNow = Date.now();
-
-              if (beaconsArray.length > 30) {
-                  beaconsArray = beaconsArray.slice(10, beaconsArray.length);
-              }
-
-              $.each(beacons, function (key, beacon) {
-                  beaconsArray.push(beacon);
-              });
-          }*/
-
         function normalizeBeaconsArray() {
             /**
              * beaconsArray is beacons van de laatste 3 sec.
@@ -98,9 +96,9 @@ function beaconViewController($scope, beaconService) {
                     pollsPerBeacon[localKey] = [beaconsArray[i]];
                 }
             }
-            console.log(pollsPerBeacon[1], beaconsArray);
+            alert(JSON.stringify(pollsPerBeacon), beaconsArray);
             averageValue(pollsPerBeacon);
-             //delete pollsPerBeacon["undefined:undefined:undefined"];
+            //delete pollsPerBeacon["undefined:undefined:undefined"];
 
             //alert("pollsPerBeacon: ", JSON.stringify(pollsPerBeacon));
         }

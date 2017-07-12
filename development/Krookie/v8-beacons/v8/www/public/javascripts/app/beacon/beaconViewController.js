@@ -6,32 +6,37 @@ function beaconViewController($scope, beaconService) {
     var app = (function () {
         // Application object.
         var app = {};
-
+        // We definieren wat globale variabelen.
         var regions = [];
         var surroundingBeacons = [];
         var mainBeacon = {};
+        // We nemen de beacons uit de JSON file dat horen bij het boek. 
+        // Maken een onderscheid tussen mainBeacons en surroundingBeacons
         getAllBeacons();
+        //We definieren nog globale variabelen.
         var beacons = {};
         var beaconsArray = [];
         var updateTimer = null;
-        var updateStack = null;
-
         var normalisationStack = [];
 
-
+        // We zullen alle functies hier alleen maar uitvoeren als device ready is.
         app.initialize = function () {
             document.addEventListener(
                 'deviceready',
+                //Plugin inladen, scannen, relevante beacons in beaconsArray steken en de temperatuur elke seconde updaten.
                 onDeviceReady,
                 false);
         };
 
         function onDeviceReady() {
+            // We laden de iBeacon Plugin in.
             window.locationManager = cordova.plugins.locationManager;
+            // We beginnen te scannen naar beacons in de buurt dat horen bij het gekozen boek.
             startScan();
-
+            // We maken beaconsArray dat een Array is van objecten. 
+            // (beacons is een object van objecten waar elk objectje de info is van al de beacons dat gemeten worden en in de region worden gespecifieerd.)
             beaconsArray = Object.values(beacons);
-            // updateStack = setInterval(collectValues, 100);
+            // Elke seconde updateTemperature uitvoeren.
             updateTimer = setInterval(updateTemperature, 1000);
         }
 
@@ -39,23 +44,30 @@ function beaconViewController($scope, beaconService) {
             var delegate = new locationManager.Delegate();
             // Called continuously when ranging beacons.
             delegate.didRangeBeaconsInRegion = function (pluginResult) {
+                // Voor elke beacon dat de plugin leest gaan we..
                 for (var i in pluginResult.beacons) {
+                    // Eén beacon opslaan in een variabele
                     var beacon = pluginResult.beacons[i];
+                    // Een unieke key maken.
                     var key = beacon.uuid + ':' + beacon.major + ':' + beacon.minor;
+                    // De beacon toevoegen aan het beacons object
                     beacons[key] = beacon;
+                    // Als er al 30 items zijn in de beaconsArray..
                     if (beaconsArray.length > 30) {
-                        beaconsArray = beaconsArray.slice(10, beaconsArray.length);
+                        // Maak de beaconsArray weer kleiner
+                        // Houdt laatste 24 objecten.
+                        beaconsArray = beaconsArray.slice(beaconsArray.length - 30, beaconsArray.length);
                     }
+                    // Zolang er minder dan 30 objecten in de array zitten blijf er metingen aan toevoegen.
                     beaconsArray.push(beacon);
-
-
                 }
             };
             locationManager.setDelegate(delegate);
             locationManager.requestAlwaysAuthorization();
 
-            // Start monitoring and ranging beacons.
+            // Voor elke UUID in de regionsArray..
             for (var i in regions) {
+                // laten we weten aan de plugin wat de beaconRegion is.
                 var beaconRegion = new locationManager.BeaconRegion(
                     i + 1,
                     regions[i].uuid);
@@ -67,74 +79,11 @@ function beaconViewController($scope, beaconService) {
             }
         }
 
-        /*  function collectValues() {
-              var timeNow = Date.now();
 
-              if (beaconsArray.length > 30) {
-                  beaconsArray = beaconsArray.slice(10, beaconsArray.length);
-              }
-
-              $.each(beacons, function (key, beacon) {
-                  beaconsArray.push(beacon);
-              });
-          }*/
-
-        function normalizeBeaconsArray() {
-            /**
-             * beaconsArray is beacons van de laatste 3 sec.
-             * {"uuid":[polls van beacon],
-             * "uuid":[polls van beacon2],
-             * ...
-             *  }
-             */
-            var pollsPerBeacon = {};
-
-            //alert(JSON.stringify(beaconsArray));
-            for (var i = 0; i < beaconsArray.length; i++) {
-                var localKey = beaconsArray[i].uuid + ':' + beaconsArray[i].major + ':' + beaconsArray[i].minor;
-                if (pollsPerBeacon.hasOwnProperty(localKey)) {
-                    pollsPerBeacon[localKey].push(beaconsArray[i]);
-                } else {
-                    pollsPerBeacon[localKey] = [beaconsArray[i]];
-                }
-            }
-            console.log(pollsPerBeacon, beaconsArray);
-            averageValue(pollsPerBeacon);
-             //delete pollsPerBeacon["undefined:undefined:undefined"];
-
-            //alert("pollsPerBeacon: ", JSON.stringify(pollsPerBeacon));
-        }
-
-        function averageValue(arr) {
-            var sums = {},
-                counts = {},
-                allAverageValues = [],
-                rssi;
-            for (var i = 0; i < arr.length; i++) {
-                rssi = arr[i].rssi;
-                if (!(rssi in sums)) {
-                    sums[rssi] = 0;
-                    counts[rssi] = 0;
-                }
-                sums[rssi] += arr[i].value;
-                counts[rssi]++;
-            }
-
-            for (rssi in sums) {
-                allAverageValues.push({
-                    rssiValue: rssi,
-                    value: sums[rssi] / counts[rssi]
-                });
-            }
-            console.log(allAverageValues);
-        }
-
+        // Deze functie wordt 1x per seconde uitgevoerd dus dankzij de normalize en average functies zal er elke seconde een nieuw gemiddelde worden berekend 
+        // In de normalize functie 
         function updateTemperature() {
             var timeNow = Date.now();
-            //Deze functie wordt 1x per seconde uitgevoerd dus zal steeds elke seconde gemiddelde resetten 
-            //Zo zullen de waarden hopelijk fluctueren.
-            // Update beacon list.
-
             //returns closest beacon
             var closest = normalizeBeaconsArray();
 
@@ -215,6 +164,61 @@ function beaconViewController($scope, beaconService) {
                 );
         }
 
+        function normalizeBeaconsArray() {
+            /**
+             * beaconsArray zijn al de beacons van de laatste 3 sec.
+             * het is een Array met vele objecten en elk object heeft info over een beacon (uuid, rssi etc)
+             * Ons doel is nu een nieuw object maken waar we voor elke uuid alle metingingen erin plaatsen
+             * Van al deze polls/metingen van een bepaalde beacon bereken we later een gemiddelde rssi value om zo de dichtste beacon te bepalen.
+             * Het nieuw object (pollsPerBeacon) moet er zo uitzien:
+             * { 
+             * "uuid1":[polls van beacon1],
+             * "uuid2":[polls van beacon2],
+             * ...
+             *  }
+             *  We nemen het gemiddelde van 'polls van beacon1' en vergelijken dit met 'polls van beacon2'
+             */
+            // We maken een pollsPerBeacon object waar de metingen inzitten volgens uuid.
+            var pollsPerBeacon = {};
+
+            // Voor elk object (ontvangen beaconsignaal) van voorbije 3 seconden gaan we..
+            for (var i = 0; i < beaconsArray.length; i++) {
+                //Een unieke key gebruiken
+                var localKey = 'BeaconMetUUID:' + beaconsArray[i].uuid;
+                //Kijken of die Key al bestaat in dit object en zo ja voegen we de huidige rssi toe aan de array horende bij de key/beacon
+                //Zo neen maken we een nieuwe key en voegen daar een array aan toe met de rssi waarde
+                if (pollsPerBeacon.hasOwnProperty(localKey)) {
+                    pollsPerBeacon[localKey].push(beaconsArray[i].rssi);
+                } else {
+                    pollsPerBeacon[localKey] = [beaconsArray[i].rssi];
+                }
+            }
+            alert(JSON.stringify(pollsPerBeacon));
+        }
+
+        function averageValue(arr) {
+            var sums = {},
+                counts = {},
+                allAverageValues = [],
+                rssi;
+            for (var i = 0; i < arr.length; i++) {
+                rssi = arr[i].rssi;
+                if (!(rssi in sums)) {
+                    sums[rssi] = 0;
+                    counts[rssi] = 0;
+                }
+                sums[rssi] += arr[i].value;
+                counts[rssi]++;
+            }
+
+            for (rssi in sums) {
+                allAverageValues.push({
+                    rssiValue: rssi,
+                    value: sums[rssi] / counts[rssi]
+                });
+            }
+            console.log(allAverageValues);
+        }
         return app;
     })();
     app.initialize();
