@@ -98,7 +98,7 @@ function beaconViewController($scope, beaconService) {
                     pollsPerBeacon[localKey] = [beaconsArray[i]];
                 }
             }
-            console.log(pollsPerBeacon[1], beaconsArray);
+            console.log(pollsPerBeacon, beaconsArray);
             averageValue(pollsPerBeacon);
              //delete pollsPerBeacon["undefined:undefined:undefined"];
 
