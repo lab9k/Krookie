@@ -37,11 +37,11 @@
 "fact": "Dit is een leuk weetje, moet van API komen.",
 "ISBN": 9789024556533,
 "beacon": {
-               "main": "A4950001-C5B1-4B44-B512-1370F02D74DE",
+               "main": "e2c56db5-dffb-48d2-b060-d04f43544147",
                "surrounding": [
-                                "A7118AC8-D831-41FA-8AFD-93EBB85B6F1E",
-                                "8DEEFBB9-F738-4297-8040-96668BB44281",
-                                "E20A39F4-73F5-4BC4-A12F-17D1AD07A961"
+                                "e2c56db5-dffb-48d2-b060-d04f43544141",
+                                "e2c56db5-dffb-48d2-b060-d04f43544142",
+                                "e2c56db5-dffb-48d2-b060-d04f43544148"
                               ]
           }
 },
@@ -131,7 +131,7 @@
 "books_has_category": [
     {
         "book_id": "1",
-        "category_id": "2"
+        "category_id": "1"
     },
     {
         "book_id": "1",
