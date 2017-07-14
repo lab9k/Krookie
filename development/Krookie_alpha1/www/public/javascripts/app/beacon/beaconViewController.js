@@ -59,30 +59,18 @@ function beaconViewController($scope, beaconService) {
         }
 
         function updateTemperature() {
-
-            if (jQuery.isEmptyObject(beacons)) {
-                changeColor(
-                    "M6.6,47.8V29.4c0.3-1.2,1.4-2,2.6-1.7c0.8,0.2,1.5,0.8,1.7,1.7v18.4",
-                    "red-fill orange-fill shake",
-                    "blue-fill",
-                    "background--green background--red background--orange",
-                    "background--darkblue",
-                    "Brrrr, het is hier koud...",
-                    "hidden");
-            }
-
             var timeNow = Date.now();
 
             $.each(beacons, function (key, beacon) {
-                if (beacon.timeStamp + 1000 > timeNow) {
-                    if (beacon != null) {
+                if (beacon.timeStamp + 2000 > timeNow) {
+                    if (JSON.stringify(beacon) != undefined) {
                         beaconsArray.push(beacon);
                     }
                 }
             });
 
             //alert('beaconsObject: ' + JSON.stringify(beacons));
-            alert('beaconsArray: ' + JSON.stringify(beaconsArray));
+            //alert('beaconsArray: ' + JSON.stringify(beaconsArray));
             Array.prototype.hasMax = function (attrib) {
                 return this.reduce(function (prev, curr) {
                     return prev[attrib] > curr[attrib] ? prev : curr;
@@ -125,7 +113,7 @@ function beaconViewController($scope, beaconService) {
                         }
                     }
                 }
-            } else {
+            } else if (beaconsArray.length == 0) {
                 changeColor(
                     "M6.6,47.8V29.4c0.3-1.2,1.4-2,2.6-1.7c0.8,0.2,1.5,0.8,1.7,1.7v18.4",
                     "red-fill orange-fill shake",
