@@ -41,6 +41,7 @@ function beaconViewController($scope, beaconService) {
                     beacons[key] = beacon;
                 }
             };
+
             locationManager.setDelegate(delegate);
             locationManager.requestAlwaysAuthorization();
 
@@ -58,6 +59,7 @@ function beaconViewController($scope, beaconService) {
         }
 
         function updateTemperature() {
+
             if (jQuery.isEmptyObject(beacons)) {
                 changeColor(
                     "M6.6,47.8V29.4c0.3-1.2,1.4-2,2.6-1.7c0.8,0.2,1.5,0.8,1.7,1.7v18.4",
@@ -68,25 +70,25 @@ function beaconViewController($scope, beaconService) {
                     "Brrrr, het is hier koud...",
                     "hidden");
             }
+
             var timeNow = Date.now();
 
-            //Deze functie wordt 1x per seconde uitgevoerd dus zal steeds elke seconde gemiddelde resetten 
-            //Zo zullen de waarden hopelijk fluctueren.
-            // Update beacon list.
-            //var beaconsArray = Object.values(beacons)
-
             $.each(beacons, function (key, beacon) {
-                if(beacon.timeStamp + 1000 > timeNow) {
-                    beaconsArray.push(beacon);
+                if (beacon.timeStamp + 1000 > timeNow) {
+                    if (beacon != null) {
+                        beaconsArray.push(beacon);
+                    }
                 }
             });
-            console.log('beaconsObject: ' + JSON.stringify(beacons));
-            console.log('beaconsArray: ' + JSON.stringify(beaconsArray));
+
+            //alert('beaconsObject: ' + JSON.stringify(beacons));
+            alert('beaconsArray: ' + JSON.stringify(beaconsArray));
             Array.prototype.hasMax = function (attrib) {
                 return this.reduce(function (prev, curr) {
                     return prev[attrib] > curr[attrib] ? prev : curr;
                 });
             }
+
             if (beaconsArray !== 'undefined' && beaconsArray.length > 0) {
                 if (JSON.stringify(beaconsArray.hasMax('rssi').uuid).toLowerCase() == JSON.stringify(mainBeacon.uuid).toLowerCase()) {
                     changeColor(
@@ -123,8 +125,7 @@ function beaconViewController($scope, beaconService) {
                         }
                     }
                 }
-            }
-            else{
+            } else {
                 changeColor(
                     "M6.6,47.8V29.4c0.3-1.2,1.4-2,2.6-1.7c0.8,0.2,1.5,0.8,1.7,1.7v18.4",
                     "red-fill orange-fill shake",
@@ -134,12 +135,10 @@ function beaconViewController($scope, beaconService) {
                     "Brrrr, het is hier koud...",
                     "hidden");
             }
+
             beaconsArray = [];
-                        
-            console.log('Normaal lege beaconsArray: ' + JSON.stringify(beaconsArray));
             var element = $('<p>Waarde van dichtsbijzijnde beacon: ' + JSON.stringify(beaconsArray.hasMax('rssi').rssi) + '<br>UUID van de current beacon: ' + JSON.stringify(beaconsArray.hasMax('rssi').uuid) + '</span>');
             $('#found-beacons').empty();
-            $('#info').empty();
             $('#found-beacons').append(element);
         }
 
