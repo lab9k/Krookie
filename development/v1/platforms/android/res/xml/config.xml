@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="LocationManager">
+        <param name="android-package" value="com.unarin.cordova.beacon.LocationManager" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="DeviceFeedback">
+        <param name="android-package" value="cz.Velda.cordova.plugin.devicefeedback.DeviceFeedback" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Krookie</name>
+    <description>Een open-source beacon applicatie in opdracht van Lab9k voor De Krook Bibliotheek</description>
+    <author email="lab9k@digipolis.be" href="www.lab9k.github.io">Brent De Roeck, Adriaan Glibert, Thomas Coppein, Niels Cappelle</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+    <meta content="default-src 'self'; frame-src 'self' https://cordova.apache.org" http-equiv="Content-Security-Policy">
+        <icon qualifier="ldpi" src="res/icons/android/icon-36-ldpi.png" />
+        <icon qualifier="mdpi" src="res/icons/android/icon-48-mdpi.png" />
+        <icon qualifier="hdpi" src="res/icons/android/icon-72-hdpi.png" />
+        <icon qualifier="xhdpi" src="res/icons/android/icon-96-xhdpi.png" />
+        <icon qualifier="xxhdpi" src="res/icons/android/icon-144-xxhdpi.png" />
+        <icon qualifier="xxxhdpi" src="res/icons/android/icon-192-xxxhdpi.png" />
+        <splash qualifier="ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
+        <splash qualifier="mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
+        <splash qualifier="hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
+        <splash qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
+        <preference name="BackgroundColor" value="0xFFE85143" />
+        <preference name="Orientation" value="landscape" />
+        <preference name="Fullscreen" value="true" />
+        <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    </meta>
+    <preference name="loglevel" value="DEBUG" />
+</widget>
