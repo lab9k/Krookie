@@ -90,7 +90,7 @@
                 </g>
             </svg>
             <div class="avatar__text ">
-                <p id="found-beacons">We zijn op zoek naar deze schat!</p>
+                <p>We zijn op zoek naar deze schat!</p>
             </div>
         </div>
         <div data-ng-controller="beaconViewController"></div>
@@ -100,22 +100,21 @@
     <script src="../public/javascripts/jquery-3.2.1.js"></script>
     <script>
         var changeClass = document.getElementsByClassName('animated')[0];
-        document.getElementsByClassName('stop__button')[0].addEventListener('click', function(){
+        document.getElementsByClassName('stop__button')[0].addEventListener('click', function () {
             changeClass.classList.remove('fadeIn');
             changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="../index.html";
+            setTimeout(function () {
+                window.location.href = "../index.html";
             }, 1000);
         });
-        document.getElementsByClassName('gevonden__button')[0].addEventListener('click', function(){
+        document.getElementsByClassName('gevonden__button')[0].addEventListener('click', function () {
             changeClass.classList.remove('fadeIn');
             changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="confetti.html";
+            setTimeout(function () {
+                window.location.href = "confetti.html";
             }, 1000);
         });
     </script>
-    <script type="text/javascript" src="../libs/evothings/evothings.js"></script>
     <script type="text/javascript" src="../public/javascripts/angular.min.js"></script>
     <script type="text/javascript" src="../app.js"></script>
     <script type="text/javascript" src="../public/javascripts/app/book/module.js "></script>
@@ -125,4 +124,5 @@
     <script type="text/javascript" src="../public/javascripts/app/beacon/beaconViewController.js "></script>
     <script type="text/javascript" src="../public/javascripts/thermo.js "></script>
 </body>
+
 </html>

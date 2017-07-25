@@ -272,7 +272,7 @@
                                     </div>
                                 </div>
                                 <div class="circle6 rotate-2">
-                                   <div class="circle-wrapper">
+                                    <div class="circle-wrapper">
                                         <img src="../public/images/Rugby.svg" />
                                     </div>
                                 </div>
@@ -448,8 +448,10 @@
                             </div>
                             <img src="../public/images/Fee.svg">
                         </div>
-                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
-                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"/>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 841.9 241" style="enable-background:new 0 0 841.9 241;" xml:space="preserve">
+                            <path d="M493.2,0.9c0,0-73.1,2-121.8,11.5S175.4,6.3,90.6,0.9S0.6,12.4,0.6,100.4s-13.8,136.7,95.4,130.3s149.4-10.7,240.5,0.6 c91.1,11.2,130.3,0.4,254.3,5.8c124,5.4,206.6,11.7,236.3-29.7s7.2-134.9,0-179.1c-3.2-19.9-2.1-19.1-79.5-14.8S555.7,2.1,493.2,0.9 z"
+                            />
                         </svg>
                         <p>Fee</p>
                     </div>
@@ -578,7 +580,7 @@
 
 
         <script type="text/javascript" src="../cordova.js"></script>
-        <script src="../public/javascripts/checkconnection.js" type="text/javascript"></script>
+        <!--<script src="../public/javascripts/checkconnection.js" type="text/javascript"></script>-->
         <script type="text/javascript" src="../public/javascripts/jquery-3.2.1.js"></script>
         <script src="../public/javascripts/swiper.min.js"></script>
 
@@ -603,20 +605,20 @@
                 loop: true,
             });
             var changeClass = document.getElementsByClassName('animated')[0];
-            document.getElementsByClassName('button__reading-skill')[0].addEventListener('click', function(){
+            document.getElementsByClassName('button__reading-skill')[0].addEventListener('click', function () {
                 changeClass.classList.remove('fadeIn');
                 changeClass.classList.add('fadeOut');
-                setTimeout(function(){
-                     window.location.href="class.html";
-                    }, 1000);
+                setTimeout(function () {
+                    window.location.href = "class.html";
+                }, 1000);
             });
-            document.querySelector('#clicker1').addEventListener('click', function(){
+            document.querySelector('#clicker1').addEventListener('click', function () {
                 document.querySelector("#clicker2").click();
                 document.querySelector("#clicker3").click();
                 changeClass.classList.remove('fadeIn');
                 changeClass.classList.add('fadeOut');
-                setTimeout(function(){
-                     window.location.href="book.html";
+                setTimeout(function () {
+                    window.location.href = "book.html";
                 }, 1000);
             });
         </script>

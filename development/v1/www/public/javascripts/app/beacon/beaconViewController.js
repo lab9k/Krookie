@@ -26,8 +26,20 @@ function beaconViewController($scope, beaconService) {
 
         function onDeviceReady() {
             window.locationManager = cordova.plugins.locationManager;
-            setInterval(startScan, 500);
-            // updateTemperature, 500);
+            cordova.plugins.locationManager.isBluetoothEnabled()
+                .then(function (isEnabled) {
+                    if (isEnabled) {
+                        console.log("Bluetooth is enabled.");
+                    } else {
+                        cordova.plugins.locationManager.enableBluetooth();
+                    }
+                })
+                .fail(function (e) {
+                    console.error(e);
+                })
+                .done();
+            startScan();
+            setInterval(updateTemperature, 500);
         }
 
         function startScan() {
@@ -40,7 +52,6 @@ function beaconViewController($scope, beaconService) {
                     var key = beacon.uuid + ':' + beacon.major + ':' + beacon.minor;
                     beacons[key] = beacon;
                 }
-                updateTemperature();
                 stopScan();
             };
 
@@ -68,19 +79,20 @@ function beaconViewController($scope, beaconService) {
             var timeNow = Date.now();
 
             $.each(beacons, function (key, beacon) {
-                if (beacon.timeStamp + 2000 > timeNow) {
+                if (beacon.timeStamp + 3000 > timeNow) {
                     if (JSON.stringify(beacon) != undefined) {
                         beaconsArray.push(beacon);
                     }
                 }
             });
 
-            //alert('beaconsObject: ' + JSON.stringify(beacons));
-            //alert('beaconsArray: ' + JSON.stringify(beaconsArray));
+            console.log('beaconsObject: ' + JSON.stringify(beacons));
+            console.log('beaconsArray: ' + JSON.stringify(beaconsArray));
+
             Array.prototype.hasMax = function (attrib) {
                 return this.reduce(function (prev, curr) {
                     return prev[attrib] > curr[attrib] ? prev : curr;
-                });
+                }, -Infinity);
             }
 
             if (beaconsArray !== 'undefined' && beaconsArray.length > 0) {
@@ -131,9 +143,6 @@ function beaconViewController($scope, beaconService) {
             }
 
             beaconsArray = [];
-            var element = $('<p>Waarde van dichtsbijzijnde beacon: ' + JSON.stringify(beaconsArray.hasMax('rssi').rssi) + '<br>UUID van de current beacon: ' + JSON.stringify(beaconsArray.hasMax('rssi').uuid) + '</span>');
-            $('#found-beacons').empty();
-            $('#found-beacons').append(element);
         }
 
 

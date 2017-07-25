@@ -8,16 +8,22 @@
     },
     "installed_plugins": {
         "com.unarin.cordova.beacon": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.lab9k.krookie"
+        },
+        "cordova-plugin-browsersync": {
+            "PACKAGE_NAME": "com.lab9k.krookie"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.lab9k.krookie"
         },
         "cordova-plugin-velda-devicefeedback": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.lab9k.krookie"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.lab9k.krookie"
+        },
+        "cordova-plugin-bluetooth-status": {
+            "PACKAGE_NAME": "com.lab9k.krookie"
         }
     },
     "dependent_plugins": {}

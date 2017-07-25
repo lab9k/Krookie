@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" 
+<widget id="com.lab9k.krookie" version="1.0.0" 
     xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Krookie</name>
@@ -52,8 +52,9 @@
             <splash qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
         </platform>
     </meta>
-    <plugin name="cordova-plugin-velda-devicefeedback" spec="~0.0.2" />
-    <plugin name="cordova-plugin-network-information" spec="https://git-wip-us.apache.org/repos/asf/cordova-plugin-network-information.git" />
+    <engine name="android" spec="^6.2.3" />
     <plugin name="com.unarin.cordova.beacon" spec="https://github.com/petermetz/cordova-plugin-ibeacon.git" />
+    <plugin name="cordova-plugin-network-information" spec="https://git-wip-us.apache.org/repos/asf/cordova-plugin-network-information.git" />
     <plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
+    <plugin name="cordova-plugin-bluetooth-status" spec="^1.0.4" />
 </widget>

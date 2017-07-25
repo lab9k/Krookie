@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.lab9k.krookie" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="LocationManager">
         <param name="android-package" value="com.unarin.cordova.beacon.LocationManager" />
     </feature>
@@ -13,6 +13,9 @@
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
+    </feature>
+    <feature name="BluetoothStatus">
+        <param name="android-package" value="com.twofivefivekb.android.bluetoothstatus.BluetoothStatus" />
     </feature>
     <name>Krookie</name>
     <description>Een open-source beacon applicatie in opdracht van Lab9k voor De Krook Bibliotheek</description>

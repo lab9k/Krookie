@@ -10,12 +10,16 @@
             "com.unarin.cordova.beacon": {},
             "cordova-plugin-network-information": {},
             "cordova-plugin-velda-devicefeedback": {},
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-browsersync": {},
+            "cordova-plugin-bluetooth-status": {}
         }
     },
     "dependencies": {
         "com.unarin.cordova.beacon": "https://github.com/petermetz/cordova-plugin-ibeacon.git",
         "cordova-android": "^6.2.3",
+        "cordova-plugin-bluetooth-status": "^1.0.4",
+        "cordova-plugin-browsersync": "^0.1.6",
         "cordova-plugin-network-information": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-network-information.git",
         "cordova-plugin-velda-devicefeedback": "~0.0.2",
         "cordova-plugin-whitelist": "~1.3.2"
