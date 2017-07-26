@@ -3,16 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Swiper demo</title>
+    <title>Selecteer Leesniveau</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
-    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/animate.min.css">
-
-    <!-- jQuery -->
-
-
 </head>
 
 <body data-ng-app="bookModule">
@@ -25,7 +19,6 @@
             </svg>
             <p>Hoe oud ben je?</p>
         </div>
-        <!--Class - 1-->
         <a href="#0" class="button button__bottom--3-1 animated__button" data-ng-click="storeReadingskill('1')" ontouchend=“window.plugins.deviceFeedback.haptic(window.plugins.deviceFeedback.VIRTUAL_KEY)”>
             <div class="placeholder__selector">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -204,8 +197,6 @@
                 </svg>
             </div>
         </a>
-
-        <!--Class - 2-->
         <a href="#0" class="button button__bottom--3-2 animated__button" data-ng-click="storeReadingskill('2')">
             <div class="placeholder__selector">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -397,8 +388,6 @@
                 </svg>
             </div>
         </a>
-
-        <!--Class - 3-->
         <a href="#0" class="button button__bottom--3-3 animated__button" data-ng-click="storeReadingskill('3')">
             <div class="placeholder__selector">
                 <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -590,33 +579,31 @@
                 </svg>
             </div>
         </a>
-
     </div>
     <script>
         var changeClass = document.getElementsByClassName('animated')[0];
-        document.getElementsByClassName('animated__button')[0].addEventListener('click', function(){
+        document.getElementsByClassName('animated__button')[0].addEventListener('click', function () {
             changeClass.classList.remove('fadeIn');
             changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="avatar.html";
+            setTimeout(function () {
+                window.location.href = "avatar.html";
             }, 1000);
         });
-        document.getElementsByClassName('animated__button')[1].addEventListener('click', function(){
+        document.getElementsByClassName('animated__button')[1].addEventListener('click', function () {
             changeClass.classList.remove('fadeIn');
             changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="avatar.html";
+            setTimeout(function () {
+                window.location.href = "avatar.html";
             }, 1000);
         });
-        document.getElementsByClassName('animated__button')[2].addEventListener('click', function(){
+        document.getElementsByClassName('animated__button')[2].addEventListener('click', function () {
             changeClass.classList.remove('fadeIn');
             changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="avatar.html";
+            setTimeout(function () {
+                window.location.href = "avatar.html";
             }, 1000);
         });
     </script>
-
     <script type="text/javascript" src="../public/javascripts/angular.min.js"></script>
     <script type="text/javascript" src="../public/javascripts/app/book/module.js"></script>
     <script type="text/javascript" src="../public/javascripts/app/filter/filterService.js"></script>

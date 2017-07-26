@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>Swiper demo</title>
+    <title>Confetti</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/animate.min.css">
 </head>
+
 <body data-ng-app="bookModule">
     <div id="height-check" class="animated fadeIn container background--red" data-ng-controller="bookViewController" data-ng-model="cover">
         <canvas id="confetti"></canvas>
@@ -68,18 +69,18 @@
         </div>
         <script>
             var changeClass = document.getElementsByClassName('animated')[0];
-            document.getElementsByClassName('book__yes')[0].addEventListener('click', function(){
-            changeClass.classList.remove('fadeIn');
-            changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="question.html";
+            document.getElementsByClassName('book__yes')[0].addEventListener('click', function () {
+                changeClass.classList.remove('fadeIn');
+                changeClass.classList.add('fadeOut');
+                setTimeout(function () {
+                    window.location.href = "question.html";
                 }, 1000);
             });
-            document.getElementsByClassName('book__no')[0].addEventListener('click', function(){
-            changeClass.classList.remove('fadeIn');
-            changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="question.html";
+            document.getElementsByClassName('book__no')[0].addEventListener('click', function () {
+                changeClass.classList.remove('fadeIn');
+                changeClass.classList.add('fadeOut');
+                setTimeout(function () {
+                    window.location.href = "question.html";
                 }, 1000);
             });
         </script>
@@ -90,4 +91,5 @@
         <script type="text/javascript" src="../public/javascripts/app/book/bookViewController.js"></script>
     </div>
 </body>
+
 </html>

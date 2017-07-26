@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Krookie | Overview</title>
+    <title>KOverview</title>
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/animate.min.css">
 </head>
@@ -20,41 +20,43 @@
             </div>
         </a>
         <div class="message__top-overview">
-            <svg version="1.0" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 588.1 113.4" style="enable-background:new 0 0 588.1 113.4;" xml:space="preserve">
-            <path d="M343.3,0.4c0,0-50.9,0.9-84.8,5.3S122,2.9,63,0.4S0.4,5.7,0.4,46.4s-9.6,68.2,66.4,65.2s104-4.9,167.4,0.3s90.7-4.8,177-2.3 s151.7,9.3,173.5-5.1c3.6-2.3,5.1-76.3,1.4-91.3C583.7,4,574,4.4,520.2,6.3S386.8,1,343.3,0.4z"/>
+            <svg version="1.0" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 588.1 113.4" style="enable-background:new 0 0 588.1 113.4;" xml:space="preserve">
+                <path d="M343.3,0.4c0,0-50.9,0.9-84.8,5.3S122,2.9,63,0.4S0.4,5.7,0.4,46.4s-9.6,68.2,66.4,65.2s104-4.9,167.4,0.3s90.7-4.8,177-2.3 s151.7,9.3,173.5-5.1c3.6-2.3,5.1-76.3,1.4-91.3C583.7,4,574,4.4,520.2,6.3S386.8,1,343.3,0.4z"
+                />
             </svg>
             <p>Wat wil je nu doen?</p>
         </div>
-            <a href="#0" class="newfriend__button">
+        <a href="#0" class="newfriend__button">
                 <img src="../public/images/newfriend.svg">
             </a>
-            <a href="#0" class="playagain__button" data-ng-click="randomizeArray()">
+        <a href="#0" class="playagain__button" data-ng-click="randomizeArray()">
                 <img src="../public/images/nieuweschat.svg">
             </a>
-        
+
     </div>
     <script>
         var changeClass = document.getElementsByClassName('animated')[0];
-        document.getElementsByClassName('stop__button')[0].addEventListener('click', function(){
+        document.getElementsByClassName('stop__button')[0].addEventListener('click', function () {
             changeClass.classList.remove('fadeIn');
             changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="../index.html";
+            setTimeout(function () {
+                window.location.href = "../index.html";
             }, 1000);
         });
-        
-        document.getElementsByClassName('newfriend__button')[0].addEventListener('click', function(){
+
+        document.getElementsByClassName('newfriend__button')[0].addEventListener('click', function () {
             changeClass.classList.remove('fadeIn');
             changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="avatar.html";
+            setTimeout(function () {
+                window.location.href = "avatar.html";
             }, 1000);
         });
-        document.getElementsByClassName('playagain__button')[0].addEventListener('click', function(){
+        document.getElementsByClassName('playagain__button')[0].addEventListener('click', function () {
             changeClass.classList.remove('fadeIn');
             changeClass.classList.add('fadeOut');
-            setTimeout(function(){
-                window.location.href="book.html";
+            setTimeout(function () {
+                window.location.href = "book.html";
             }, 1000);
         });
     </script>

@@ -3,9 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>vriendje kiezen</title>
+    <title>Avatar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="../public/stylesheets/swiper.css">
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/main.css">
     <link rel="stylesheet" type="text/css" href="../public/stylesheets/animate.min.css">
@@ -13,7 +12,6 @@
 
 <body>
     <div class=" animated fadeIn container background--red" data-ng-app="bookModule" data-ng-controller="filterController">
-
         <div class="message__top">
             <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 841.9 113.4" style="enable-background:new 0 0 841.9 113.4;" xml:space="preserve">
@@ -22,12 +20,7 @@
             </svg>
             <p>Kies een vriendje en ga samen op reis!</p>
         </div>
-
-
-        <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
-
-        <!-- Swiper -->
         <div class="avatar__swiper">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -511,11 +504,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-        <!--Button for Swiper - Right-->
         <a href="#" class="button__small button__small--right">
             <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 649.1 595.3" style="enable-background:new 0 0 649.1 595.3;" xml:space="preserve">
@@ -530,8 +518,6 @@
                 </svg>
             </div>
         </a>
-
-        <!--Button for Swiper - Left-->
         <a href="#" class="button__small button__small--left">
             <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 649.1 595.3" style="enable-background:new 0 0 649.1 595.3;" xml:space="preserve">
@@ -546,9 +532,6 @@
                 </svg>
             </div>
         </a>
-
-
-        <!--Button - Terug-->
         <a href="#0" class="button button--white button__bottom--2 button__reading-skill">
             <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 841.9 405.3" style="enable-background:new 0 0 841.9 405.3;" xml:space="preserve">
@@ -559,7 +542,6 @@
                 <p>Terug</p>
             </div>
         </a>
-        <!--Button - Go-->
         <a href="#0" class="button button--white button__bottom--3 button__tutorial" id="clicker1" data-ng-click="storeCategory(category)">
             <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 841.9 405.3" style="enable-background:new 0 0 841.9 405.3;" xml:space="preserve">
@@ -580,11 +562,9 @@
 
 
         <script type="text/javascript" src="../cordova.js"></script>
-        <!--<script src="../public/javascripts/checkconnection.js" type="text/javascript"></script>-->
+        <script src="../public/javascripts/checkconnection.js" type="text/javascript"></script>
         <script type="text/javascript" src="../public/javascripts/jquery-3.2.1.js"></script>
         <script src="../public/javascripts/swiper.min.js"></script>
-
-        <!-- Initialize Swiper -->
         <script>
             var swiper = new Swiper('.swiper-container', {
                 slidesPerView: 1,
