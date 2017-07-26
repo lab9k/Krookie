@@ -1,4 +1,4 @@
-# Krookie
+# Overige documenten
 ## Algemeen
 
 Krookie is een applicatie ontworpen en ontwikkeld door studenten van de Arteveldehogeschool in opdracht van Lab9k. 
