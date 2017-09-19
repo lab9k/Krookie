@@ -2,7 +2,7 @@
   {
     "ISBN": "9789462912151", 
     "author": "Grimm, Jacob", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Eerste leesboekjes", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789462912151&VLACCnr=10065693&CDR=&EAN=&ISMN=&coversize=small", 
@@ -12,7 +12,7 @@
   {
     "ISBN": "9789061699767", 
     "author": "Rowling, J.K.", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Fantasy", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789061699767&VLACCnr=10070665&CDR=&EAN=&ISMN=&coversize=small", 
@@ -22,7 +22,7 @@
   {
     "ISBN": "9789026143953", 
     "author": "Dahl, Roald", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026143953&VLACCnr=10076590&CDR=&EAN=&ISMN=&coversize=small", 
@@ -32,7 +32,7 @@
   {
     "ISBN": "9789025722166", 
     "author": "Carle, Eric", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Prentenboeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025722166&VLACCnr=10097030&CDR=&EAN=&ISMN=&coversize=small", 
@@ -42,7 +42,7 @@
   {
     "ISBN": "9789026139451", 
     "author": "Dahl, Roald", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026139451&VLACCnr=10104019&CDR=&EAN=&ISMN=&coversize=small", 
@@ -50,9 +50,9 @@
     "title": "De reuzenperzik"
   }, 
   {
-    "ISBN": "90-261-0821-4", 
+    "ISBN": "9026108214", 
     "author": "Dickens, Charles", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Kerstmis", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026108211&VLACCnr=1550940&CDR=&EAN=&ISMN=&coversize=small", 
@@ -60,9 +60,9 @@
     "title": "Een kerstvertelling"
   }, 
   {
-    "ISBN": "90-00-03106-0", 
+    "ISBN": "9000031060", 
     "author": "Carroll, Lewis", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Fantasieverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789000031061&VLACCnr=2354968&CDR=&EAN=&ISMN=&coversize=small", 
@@ -70,9 +70,9 @@
     "title": "De avonturen van Alice in Wonderland / Lewis Carroll ; met ill. van John Tenniel ; vert. door Nicolaas Matsier"
   }, 
   {
-    "ISBN": "90-45-90035-1", 
+    "ISBN": "9045900351", 
     "author": "Stoker, Bram", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Griezelverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045900353&VLACCnr=2663928&CDR=&EAN=&ISMN=&coversize=small", 
@@ -80,9 +80,9 @@
     "title": "Dracula / naar het verhaal van Bram Stoker ; in een bew. van Mike Stocks"
   }, 
   {
-    "ISBN": "90-258-4218-6", 
+    "ISBN": "9025842186", 
     "author": "van Loon, Paul", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Griezelverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025842185&VLACCnr=2667354&CDR=&EAN=&ISMN=&coversize=small", 
@@ -90,9 +90,9 @@
     "title": "Het nachtmerrieneefje"
   }, 
   {
-    "ISBN": "90-5908-116-1", 
+    "ISBN": "9059081161", 
     "author": "van Ranst, Do", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Verfilmde boeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059081161&VLACCnr=2733404&CDR=&EAN=&ISMN=&coversize=small", 
@@ -100,9 +100,9 @@
     "title": "Mijn vader zegt dat wij levens redden"
   }, 
   {
-    "ISBN": "90-451-0147-5", 
+    "ISBN": "9045101475", 
     "author": "de Sterck, Marita", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045101477&VLACCnr=2766202&CDR=&EAN=&ISMN=&coversize=small", 
@@ -110,7 +110,7 @@
     "title": "Met huid en haar"
   }, 
   {
-    "ISBN": "90-258-4458-8", 
+    "ISBN": "9025844588", 
     "author": "van Loon, Paul", 
     "available": null, 
     "beacon": null, 
@@ -120,9 +120,9 @@
     "title": "Niet bijten, Dolfje !"
   }, 
   {
-    "ISBN": "90-257-3817-6", 
+    "ISBN": "9025738176", 
     "author": "Swift, Jonathan", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Avonturenverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025738174&VLACCnr=2777582&CDR=&EAN=&ISMN=&coversize=small", 
@@ -130,9 +130,9 @@
     "title": "Gullivers reizen / naar het originele verhaal van Jonathan Swift ; verteld door Martin Jenkins ; ill. Chris Riddell"
   }, 
   {
-    "ISBN": "90-5016-436-6", 
+    "ISBN": "9050164366", 
     "author": "Morpurgo, Michael", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Oorlogsverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789050164368&VLACCnr=2785502&CDR=&EAN=&ISMN=&coversize=small", 
@@ -140,7 +140,7 @@
     "title": "Soldaat Peaceful"
   }, 
   {
-    "ISBN": "90-451-0182-3", 
+    "ISBN": "9045101823", 
     "author": "Funke, Cornelia", 
     "available": null, 
     "beacon": null, 
@@ -150,9 +150,9 @@
     "title": "Hart van inkt"
   }, 
   {
-    "ISBN": "90-5016-300-9", 
+    "ISBN": "9050163009", 
     "author": "Horowitz, Anthony", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Detectives", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789050163002&VLACCnr=2852839&CDR=&EAN=&ISMN=&coversize=small", 
@@ -160,9 +160,9 @@
     "title": "Bolbliksem"
   }, 
   {
-    "ISBN": "90-450-1243-X", 
+    "ISBN": "904501243X", 
     "author": "Goscinny, Ren\u00e9", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Avonturenverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045012438&VLACCnr=2912438&CDR=&EAN=&ISMN=&coversize=small", 
@@ -180,9 +180,9 @@
     "title": "Het geheim van te veel torens"
   }, 
   {
-    "ISBN": "90-448-0552-5", 
+    "ISBN": "9044805525", 
     "author": "Sax, Aline", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Historische verhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044805529&VLACCnr=2963040&CDR=&EAN=&ISMN=&coversize=small", 
@@ -190,7 +190,7 @@
     "title": "Wij, twee jongens"
   }, 
   {
-    "ISBN": "90-451-0325-7", 
+    "ISBN": "9045103257", 
     "author": "Schmidt, Annie M.G.", 
     "available": null, 
     "beacon": null, 
@@ -200,9 +200,9 @@
     "title": "Otje"
   }, 
   {
-    "ISBN": "90-451-0346-X", 
+    "ISBN": "904510346X", 
     "author": "Vrancken, Kaat", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Dierenverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045103464&VLACCnr=2987301&CDR=&EAN=&ISMN=&coversize=small", 
@@ -210,9 +210,9 @@
     "title": "Cheffie bijt door / Kaat Vrancken ; met tek. van Martijn van der Linden"
   }, 
   {
-    "ISBN": "90-02-22155-X", 
+    "ISBN": "900222155X", 
     "author": null, 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789002221552&VLACCnr=2994067&CDR=&EAN=&ISMN=&coversize=small", 
@@ -220,7 +220,7 @@
     "title": "Op de boerderij"
   }, 
   {
-    "ISBN": "90-5908-198-6", 
+    "ISBN": "9059081986", 
     "author": "Bracke, Dirk", 
     "available": null, 
     "beacon": null, 
@@ -242,7 +242,7 @@
   {
     "ISBN": "9789058384539", 
     "author": "van de Vendel, Edward", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789058384539&VLACCnr=3160467&CDR=&EAN=&ISMN=&coversize=small", 
@@ -262,7 +262,7 @@
   {
     "ISBN": "9780552773805", 
     "author": "Boyne, John", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Verfilmde boeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9780552773805&VLACCnr=3162369&CDR=&EAN=&ISMN=&coversize=small", 
@@ -272,7 +272,7 @@
   {
     "ISBN": "9789044801491", 
     "author": "Lagrou, Patrick", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Avonturenverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044801491&VLACCnr=6810333&CDR=&EAN=&ISMN=&coversize=small", 
@@ -302,7 +302,7 @@
   {
     "ISBN": "9789048800810", 
     "author": "Valentine, Jenny", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789048800810&VLACCnr=7005812&CDR=&EAN=&ISMN=&coversize=small", 
@@ -312,7 +312,7 @@
   {
     "ISBN": "9789059082762", 
     "author": "van Ranst, Do", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059082762&VLACCnr=7006403&CDR=&EAN=&ISMN=&coversize=small", 
@@ -322,7 +322,7 @@
   {
     "ISBN": "9789044809237", 
     "author": "Lagrou, Patrick", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Avonturenverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044809237&VLACCnr=7023784&CDR=&EAN=&ISMN=&coversize=small", 
@@ -332,7 +332,7 @@
   {
     "ISBN": "9789049923303", 
     "author": "Slee, Carry", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Verfilmde boeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789049923303&VLACCnr=7048725&CDR=&EAN=&ISMN=&coversize=small", 
@@ -352,7 +352,7 @@
   {
     "ISBN": "9789065658234", 
     "author": "Bracke, Dirk", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Liefdesverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789065658234&VLACCnr=7195155&CDR=&EAN=&ISMN=&coversize=small", 
@@ -372,7 +372,7 @@
   {
     "ISBN": "9789020984132", 
     "author": "Vereecken, Kathleen", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Historische verhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789020984132&VLACCnr=7407815&CDR=&EAN=&ISMN=&coversize=small", 
@@ -382,7 +382,7 @@
   {
     "ISBN": "9789022324271", 
     "author": "de Bel, Marc", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Historische verhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022324271&VLACCnr=7483001&CDR=&EAN=&ISMN=&coversize=small", 
@@ -392,7 +392,7 @@
   {
     "ISBN": "9789058385727", 
     "author": "van de Vendel, Edward", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Gedichten", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789058385727&VLACCnr=7490907&CDR=&EAN=&ISMN=&coversize=small", 
@@ -422,7 +422,7 @@
   {
     "ISBN": "9789026127960", 
     "author": "Dahl, Roald", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026127960&VLACCnr=7564582&CDR=&EAN=&ISMN=&coversize=small", 
@@ -432,7 +432,7 @@
   {
     "ISBN": "9789022324974", 
     "author": "Tijsmans, Mark", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022324974&VLACCnr=7618912&CDR=&EAN=&ISMN=&coversize=small", 
@@ -442,7 +442,7 @@
   {
     "ISBN": "9789047702665", 
     "author": "Preussler, Otfried", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Verfilmde boeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047702665&VLACCnr=7668426&CDR=&EAN=&ISMN=&coversize=small", 
@@ -462,7 +462,7 @@
   {
     "ISBN": "9789056723521", 
     "author": "Ruiz Zaf\u00f3n, Carlos", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Griezelverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789056723521&VLACCnr=7769991&CDR=&EAN=&ISMN=&coversize=small", 
@@ -512,7 +512,7 @@
   {
     "ISBN": "9789025750558", 
     "author": "Kolu, Siri", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025750558&VLACCnr=8510757&CDR=&EAN=&ISMN=&coversize=small", 
@@ -532,7 +532,7 @@
   {
     "ISBN": "9789022565438", 
     "author": "Meyer, Stephenie", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Verfilmde boeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022565438&VLACCnr=8601120&CDR=&EAN=&ISMN=&coversize=small", 
@@ -542,7 +542,7 @@
   {
     "ISBN": "9789025861759", 
     "author": "van Loon, Paul", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Griezelverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025861759&VLACCnr=8638637&CDR=&EAN=&ISMN=&coversize=small", 
@@ -552,7 +552,7 @@
   {
     "ISBN": "9789059273207", 
     "author": "Stevenson, Robert Louis", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Avonturenverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059273207&VLACCnr=8675874&CDR=&EAN=&ISMN=&coversize=small", 
@@ -562,7 +562,7 @@
   {
     "ISBN": "9789048816262", 
     "author": "Ness, Patrick", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Sciencefiction", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789048816262&VLACCnr=8718011&CDR=&EAN=&ISMN=&coversize=small", 
@@ -572,7 +572,7 @@
   {
     "ISBN": "9789021672052", 
     "author": "Lindgren, Astrid", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Avonturenverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789021672052&VLACCnr=8733226&CDR=&EAN=&ISMN=&coversize=small", 
@@ -582,7 +582,7 @@
   {
     "ISBN": "9789401409322", 
     "author": "Griffiths, Andy", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789401409322&VLACCnr=8741777&CDR=&EAN=&ISMN=&coversize=small", 
@@ -592,7 +592,7 @@
   {
     "ISBN": "9789044820041", 
     "author": "van Mieghem, Linda", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044820041&VLACCnr=8747831&CDR=&EAN=&ISMN=&coversize=small", 
@@ -602,7 +602,7 @@
   {
     "ISBN": "9789049926519", 
     "author": "Slee, Carry", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Verfilmde boeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789049926519&VLACCnr=8754354&CDR=&EAN=&ISMN=&coversize=small", 
@@ -612,7 +612,7 @@
   {
     "ISBN": "9789044526332", 
     "author": "Ness, Patrick", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Verfilmde boeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044526332&VLACCnr=8829050&CDR=&EAN=&ISMN=&coversize=small", 
@@ -622,7 +622,7 @@
   {
     "ISBN": "9789056723552", 
     "author": "Ruiz Zaf\u00f3n, Carlos", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Griezelverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789056723552&VLACCnr=8847416&CDR=&EAN=&ISMN=&coversize=small", 
@@ -642,7 +642,7 @@
   {
     "ISBN": "9789046704363", 
     "author": "Downham, Jenny", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Romans", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789046704363&VLACCnr=8936799&CDR=&EAN=&ISMN=&coversize=small", 
@@ -652,7 +652,7 @@
   {
     "ISBN": "9789047705420", 
     "author": "Kuyper, Sjoerd", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047705420&VLACCnr=8959401&CDR=&EAN=&ISMN=&coversize=small", 
@@ -662,7 +662,7 @@
   {
     "ISBN": "9789401415347", 
     "author": "Griffiths, Andy", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789401415347&VLACCnr=8970308&CDR=&EAN=&ISMN=&coversize=small", 
@@ -672,7 +672,7 @@
   {
     "ISBN": "9789047706687", 
     "author": "Schubert, Ingrid", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Prentenboeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047706687&VLACCnr=9142635&CDR=&EAN=&ISMN=&coversize=small", 
@@ -682,7 +682,7 @@
   {
     "ISBN": "9789047706618", 
     "author": "Green, John", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Romans", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047706618&VLACCnr=9167890&CDR=&EAN=&ISMN=&coversize=small", 
@@ -692,7 +692,7 @@
   {
     "ISBN": "9789056476151", 
     "author": "Bruna, Dick", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Prentenboeken", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789056476151&VLACCnr=9299316&CDR=&EAN=&ISMN=&coversize=small", 
@@ -722,7 +722,7 @@
   {
     "ISBN": "9789020679779", 
     "author": "Nelson, Jandy", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789020679779&VLACCnr=9325751&CDR=&EAN=&ISMN=&coversize=small", 
@@ -732,7 +732,7 @@
   {
     "ISBN": "9789401427029", 
     "author": "Griffiths, Andy", 
-    "available": null, 
+    "available": "false", 
     "beacon": null, 
     "category": "Humor", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789401427029&VLACCnr=9401433&CDR=&EAN=&ISMN=&coversize=small", 
@@ -742,7 +742,7 @@
   {
     "ISBN": "9789059086555", 
     "author": "Bracke, Dirk", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059086555&VLACCnr=9407523&CDR=&EAN=&ISMN=&coversize=small", 
@@ -752,7 +752,7 @@
   {
     "ISBN": "9789000344000", 
     "author": "Vreeswijk, Helen", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": null, 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789000344000&VLACCnr=9415425&CDR=&EAN=&ISMN=&coversize=small", 
@@ -782,7 +782,7 @@
   {
     "ISBN": "9789022575536", 
     "author": "Boyne, John", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Historische literatuur", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022575536&VLACCnr=9502444&CDR=&EAN=&ISMN=&coversize=small", 
@@ -792,7 +792,7 @@
   {
     "ISBN": "9789026139413", 
     "author": "Dahl, Roald", 
-    "available": null, 
+    "available": "true", 
     "beacon": null, 
     "category": "Avonturenverhalen", 
     "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026139413&VLACCnr=9637271&CDR=&EAN=&ISMN=&coversize=small", 
