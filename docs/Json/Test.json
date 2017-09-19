@@ -799,4 +799,18 @@
     "reading_skill": "age9-11", 
     "title": "Sjakie en de chocoladefabriek"
   }
-]
+],
+"readingskill": [
+    {
+      "id": "1",
+      "name": "0-5jaar"
+    },
+    {
+      "id": "2",
+      "name": "7 jaar"
+    },
+    {
+       "id": "3",
+       "name": "8-11 jaar"
+    }
+],
