@@ -1,0 +1,802 @@
+[
+  {
+    "ISBN": "9789462912151", 
+    "author": "Grimm, Jacob", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Eerste leesboekjes", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789462912151&VLACCnr=10065693&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Assepoester / met prenten van Valeria Docampo ; vrij naar de gebroeders Grimm"
+  }, 
+  {
+    "ISBN": "9789061699767", 
+    "author": "Rowling, J.K.", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Fantasy", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789061699767&VLACCnr=10070665&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Harry Potter en de steen der wijzen"
+  }, 
+  {
+    "ISBN": "9789026143953", 
+    "author": "Dahl, Roald", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026143953&VLACCnr=10076590&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "De Griezels"
+  }, 
+  {
+    "ISBN": "9789025722166", 
+    "author": "Carle, Eric", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Prentenboeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025722166&VLACCnr=10097030&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age3-5", 
+    "title": "Rupsje Nooitgenoeg"
+  }, 
+  {
+    "ISBN": "9789026139451", 
+    "author": "Dahl, Roald", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026139451&VLACCnr=10104019&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "De reuzenperzik"
+  }, 
+  {
+    "ISBN": "90-261-0821-4", 
+    "author": "Dickens, Charles", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Kerstmis", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026108211&VLACCnr=1550940&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Een kerstvertelling"
+  }, 
+  {
+    "ISBN": "90-00-03106-0", 
+    "author": "Carroll, Lewis", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Fantasieverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789000031061&VLACCnr=2354968&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "De avonturen van Alice in Wonderland / Lewis Carroll ; met ill. van John Tenniel ; vert. door Nicolaas Matsier"
+  }, 
+  {
+    "ISBN": "90-45-90035-1", 
+    "author": "Stoker, Bram", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Griezelverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045900353&VLACCnr=2663928&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Dracula / naar het verhaal van Bram Stoker ; in een bew. van Mike Stocks"
+  }, 
+  {
+    "ISBN": "90-258-4218-6", 
+    "author": "van Loon, Paul", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Griezelverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025842185&VLACCnr=2667354&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Het nachtmerrieneefje"
+  }, 
+  {
+    "ISBN": "90-5908-116-1", 
+    "author": "van Ranst, Do", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Verfilmde boeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059081161&VLACCnr=2733404&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Mijn vader zegt dat wij levens redden"
+  }, 
+  {
+    "ISBN": "90-451-0147-5", 
+    "author": "de Sterck, Marita", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045101477&VLACCnr=2766202&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Met huid en haar"
+  }, 
+  {
+    "ISBN": "90-258-4458-8", 
+    "author": "van Loon, Paul", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Eerste leesboekjes", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025844585&VLACCnr=2775993&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Niet bijten, Dolfje !"
+  }, 
+  {
+    "ISBN": "90-257-3817-6", 
+    "author": "Swift, Jonathan", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025738174&VLACCnr=2777582&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Gullivers reizen / naar het originele verhaal van Jonathan Swift ; verteld door Martin Jenkins ; ill. Chris Riddell"
+  }, 
+  {
+    "ISBN": "90-5016-436-6", 
+    "author": "Morpurgo, Michael", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Oorlogsverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789050164368&VLACCnr=2785502&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Soldaat Peaceful"
+  }, 
+  {
+    "ISBN": "90-451-0182-3", 
+    "author": "Funke, Cornelia", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Verfilmde boeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045101828&VLACCnr=2803974&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Hart van inkt"
+  }, 
+  {
+    "ISBN": "90-5016-300-9", 
+    "author": "Horowitz, Anthony", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Detectives", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789050163002&VLACCnr=2852839&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Bolbliksem"
+  }, 
+  {
+    "ISBN": "90-450-1243-X", 
+    "author": "Goscinny, Ren\u00e9", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045012438&VLACCnr=2912438&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "De kleine Nicolaas"
+  }, 
+  {
+    "ISBN": "9789022319550", 
+    "author": "Tijsmans, Mark", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022319550&VLACCnr=2939166&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Het geheim van te veel torens"
+  }, 
+  {
+    "ISBN": "90-448-0552-5", 
+    "author": "Sax, Aline", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Historische verhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044805529&VLACCnr=2963040&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Wij, twee jongens"
+  }, 
+  {
+    "ISBN": "90-451-0325-7", 
+    "author": "Schmidt, Annie M.G.", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Voorleesverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045103259&VLACCnr=2981858&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Otje"
+  }, 
+  {
+    "ISBN": "90-451-0346-X", 
+    "author": "Vrancken, Kaat", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Dierenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045103464&VLACCnr=2987301&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Cheffie bijt door / Kaat Vrancken ; met tek. van Martijn van der Linden"
+  }, 
+  {
+    "ISBN": "90-02-22155-X", 
+    "author": null, 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789002221552&VLACCnr=2994067&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Op de boerderij"
+  }, 
+  {
+    "ISBN": "90-5908-198-6", 
+    "author": "Bracke, Dirk", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059081987&VLACCnr=3029137&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Black"
+  }, 
+  {
+    "ISBN": "9789050164887", 
+    "author": "Horowitz, Anthony", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Griezelverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789050164887&VLACCnr=3109653&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Raven's gate"
+  }, 
+  {
+    "ISBN": "9789058384539", 
+    "author": "van de Vendel, Edward", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789058384539&VLACCnr=3160467&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age3-5", 
+    "title": "E\u00e9n miljoen vlinders"
+  }, 
+  {
+    "ISBN": "9789058383990", 
+    "author": "de Kockere, Geert", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Prentenboeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789058383990&VLACCnr=3160650&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "De vrouw en het jongetje"
+  }, 
+  {
+    "ISBN": "9780552773805", 
+    "author": "Boyne, John", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Verfilmde boeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9780552773805&VLACCnr=3162369&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "The boy in the striped pyjamas : a fable"
+  }, 
+  {
+    "ISBN": "9789044801491", 
+    "author": "Lagrou, Patrick", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044801491&VLACCnr=6810333&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "De poorten van Atlantis"
+  }, 
+  {
+    "ISBN": "9789022322543", 
+    "author": "Tijsmans, Mark", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Detectives", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022322543&VLACCnr=6882624&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "De echt aardige rechters"
+  }, 
+  {
+    "ISBN": "9789054615781", 
+    "author": "Stilton, Thea", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Detectives", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789054615781&VLACCnr=6944907&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "De drakencode / tekst Thea Stilton ; ill. Fabio Bono, Federica Salfo, Giada Perissinotto ... [et al.]"
+  }, 
+  {
+    "ISBN": "9789048800810", 
+    "author": "Valentine, Jenny", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789048800810&VLACCnr=7005812&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Op zoek naar Violet Park"
+  }, 
+  {
+    "ISBN": "9789059082762", 
+    "author": "van Ranst, Do", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059082762&VLACCnr=7006403&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Moeders zijn gevaarlijk met messen"
+  }, 
+  {
+    "ISBN": "9789044809237", 
+    "author": "Lagrou, Patrick", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044809237&VLACCnr=7023784&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Dolfijnen vrij!"
+  }, 
+  {
+    "ISBN": "9789049923303", 
+    "author": "Slee, Carry", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Verfilmde boeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789049923303&VLACCnr=7048725&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Radeloos"
+  }, 
+  {
+    "ISBN": "9789058385079", 
+    "author": "Verhelst, Peter", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Sprookjes", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789058385079&VLACCnr=7099553&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Het geheim van de keel van de nachtegaal"
+  }, 
+  {
+    "ISBN": "9789065658234", 
+    "author": "Bracke, Dirk", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Liefdesverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789065658234&VLACCnr=7195155&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Een lege brug"
+  }, 
+  {
+    "ISBN": "9789022323489", 
+    "author": "Tijsmans, Mark", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Detectives", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022323489&VLACCnr=7237179&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Sint-Preventia in de gloria"
+  }, 
+  {
+    "ISBN": "9789020984132", 
+    "author": "Vereecken, Kathleen", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Historische verhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789020984132&VLACCnr=7407815&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Ik denk dat het liefde was"
+  }, 
+  {
+    "ISBN": "9789022324271", 
+    "author": "de Bel, Marc", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Historische verhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022324271&VLACCnr=7483001&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Epinona"
+  }, 
+  {
+    "ISBN": "9789058385727", 
+    "author": "van de Vendel, Edward", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Gedichten", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789058385727&VLACCnr=7490907&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Fluit zoals je bent / gedichten verzameld door Edward van de Vendel en Carll Cneut ; ill. Carll Cneut"
+  }, 
+  {
+    "ISBN": "9789047512479", 
+    "author": "Menten, Tosca", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047512479&VLACCnr=7547891&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Dummie de Mummie en de Tombe van Achnetoet"
+  }, 
+  {
+    "ISBN": "9789045110844", 
+    "author": "van Leeuwen, Joke", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045110844&VLACCnr=7554926&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Toen mijn vader een struik werd"
+  }, 
+  {
+    "ISBN": "9789026127960", 
+    "author": "Dahl, Roald", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026127960&VLACCnr=7564582&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "De tovervinger"
+  }, 
+  {
+    "ISBN": "9789022324974", 
+    "author": "Tijsmans, Mark", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022324974&VLACCnr=7618912&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "De ridders van de ronde keukentafel"
+  }, 
+  {
+    "ISBN": "9789047702665", 
+    "author": "Preussler, Otfried", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Verfilmde boeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047702665&VLACCnr=7668426&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Meester van de zwarte molen"
+  }, 
+  {
+    "ISBN": "9789045111315", 
+    "author": "van de Vendel, Edward", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789045111315&VLACCnr=7677210&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Sofie en de pingu\u00efns / Edward van de Vendel; met tek. van Floor de Goede, met fotostrips van Ype + Willem"
+  }, 
+  {
+    "ISBN": "9789056723521", 
+    "author": "Ruiz Zaf\u00f3n, Carlos", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Griezelverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789056723521&VLACCnr=7769991&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "De nevelprins"
+  }, 
+  {
+    "ISBN": "9789047510062", 
+    "author": "Meyer, Stephenie", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Griezelliteratuur", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047510062&VLACCnr=7786675&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Nieuwe maan"
+  }, 
+  {
+    "ISBN": "9789058386397", 
+    "author": "Verplancke, Klaas", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Prentenboeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789058386397&VLACCnr=7799772&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age3-5", 
+    "title": "Appelmoes"
+  }, 
+  {
+    "ISBN": "9789047703075", 
+    "author": "Smith, Lane", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Prentenboeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047703075&VLACCnr=7886693&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age3-5", 
+    "title": "Het is een boek"
+  }, 
+  {
+    "ISBN": "9789047703464", 
+    "author": "Lewis, Gill", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Dierenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047703464&VLACCnr=8081115&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Kulanjango : mijn vogelvriend"
+  }, 
+  {
+    "ISBN": "9789025750558", 
+    "author": "Kolu, Siri", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025750558&VLACCnr=8510757&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Ik en de Rovers"
+  }, 
+  {
+    "ISBN": "9789047509097", 
+    "author": "Grant, Michael", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Utopische/dystopische verhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047509097&VLACCnr=8573824&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Angst"
+  }, 
+  {
+    "ISBN": "9789022565438", 
+    "author": "Meyer, Stephenie", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Verfilmde boeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022565438&VLACCnr=8601120&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Zielen"
+  }, 
+  {
+    "ISBN": "9789025861759", 
+    "author": "van Loon, Paul", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Griezelverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025861759&VLACCnr=8638637&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "SuperDolfje"
+  }, 
+  {
+    "ISBN": "9789059273207", 
+    "author": "Stevenson, Robert Louis", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059273207&VLACCnr=8675874&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Schateiland"
+  }, 
+  {
+    "ISBN": "9789048816262", 
+    "author": "Ness, Patrick", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Sciencefiction", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789048816262&VLACCnr=8718011&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Het mes dat niet wijkt"
+  }, 
+  {
+    "ISBN": "9789021672052", 
+    "author": "Lindgren, Astrid", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789021672052&VLACCnr=8733226&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Pippi Langkous"
+  }, 
+  {
+    "ISBN": "9789401409322", 
+    "author": "Griffiths, Andy", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789401409322&VLACCnr=8741777&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "De waanzinnige boomhut van 13 verdiepingen"
+  }, 
+  {
+    "ISBN": "9789044820041", 
+    "author": "van Mieghem, Linda", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044820041&VLACCnr=8747831&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Blauw voor Leonore"
+  }, 
+  {
+    "ISBN": "9789049926519", 
+    "author": "Slee, Carry", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Verfilmde boeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789049926519&VLACCnr=8754354&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Afblijven"
+  }, 
+  {
+    "ISBN": "9789044526332", 
+    "author": "Ness, Patrick", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Verfilmde boeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789044526332&VLACCnr=8829050&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Zeven minuten na middernacht / Patrick Ness ; naar een oorspronkelijk idee van Siobhan Dowd ; illustraties van Jim Kay ; vert. Manon Smits"
+  }, 
+  {
+    "ISBN": "9789056723552", 
+    "author": "Ruiz Zaf\u00f3n, Carlos", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Griezelverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789056723552&VLACCnr=8847416&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Marina"
+  }, 
+  {
+    "ISBN": "9789025845278", 
+    "author": "van Loon, Paul", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Griezelverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789025845278&VLACCnr=8895152&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age6-8", 
+    "title": "Zilvertand"
+  }, 
+  {
+    "ISBN": "9789046704363", 
+    "author": "Downham, Jenny", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Romans", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789046704363&VLACCnr=8936799&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Voor ik doodga"
+  }, 
+  {
+    "ISBN": "9789047705420", 
+    "author": "Kuyper, Sjoerd", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047705420&VLACCnr=8959401&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Hotel de grote L"
+  }, 
+  {
+    "ISBN": "9789401415347", 
+    "author": "Griffiths, Andy", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789401415347&VLACCnr=8970308&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "De waanzinnige boomhut van 26 verdiepingen"
+  }, 
+  {
+    "ISBN": "9789047706687", 
+    "author": "Schubert, Ingrid", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Prentenboeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047706687&VLACCnr=9142635&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age3-5", 
+    "title": "Er ligt een krokodil onder mijn bed!"
+  }, 
+  {
+    "ISBN": "9789047706618", 
+    "author": "Green, John", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Romans", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789047706618&VLACCnr=9167890&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Een weeffout in onze sterren"
+  }, 
+  {
+    "ISBN": "9789056476151", 
+    "author": "Bruna, Dick", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Prentenboeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789056476151&VLACCnr=9299316&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age0-2", 
+    "title": "Het feest van Nijntje : xl editie"
+  }, 
+  {
+    "ISBN": "9789021457383", 
+    "author": "Dashner, James", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Sciencefiction", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789021457383&VLACCnr=9300402&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "De doodskuur"
+  }, 
+  {
+    "ISBN": "9789026137563", 
+    "author": "Russell, Rachel Ren\u00e9e", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Dagboeken", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026137563&VLACCnr=9309893&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Drama voor de camera : avonturen van een niet-zo-stralende tv ster"
+  }, 
+  {
+    "ISBN": "9789020679779", 
+    "author": "Nelson, Jandy", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789020679779&VLACCnr=9325751&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Ik geef je de zon"
+  }, 
+  {
+    "ISBN": "9789401427029", 
+    "author": "Griffiths, Andy", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789401427029&VLACCnr=9401433&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "De waanzinnige boomhut van 52 verdiepingen"
+  }, 
+  {
+    "ISBN": "9789059086555", 
+    "author": "Bracke, Dirk", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789059086555&VLACCnr=9407523&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "Blauw is bitter"
+  }, 
+  {
+    "ISBN": "9789000344000", 
+    "author": "Vreeswijk, Helen", 
+    "available": null, 
+    "beacon": null, 
+    "category": null, 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789000344000&VLACCnr=9415425&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "Ontvoerd"
+  }, 
+  {
+    "ISBN": "9789026139130", 
+    "author": "Meinderts, Koos", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Romans", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026139130&VLACCnr=9501800&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age15", 
+    "title": "De zee zien"
+  }, 
+  {
+    "ISBN": "9789026139406", 
+    "author": "Dahl, Roald", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Humor", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026139406&VLACCnr=9501827&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Matilda"
+  }, 
+  {
+    "ISBN": "9789022575536", 
+    "author": "Boyne, John", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Historische literatuur", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789022575536&VLACCnr=9502444&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age12-14", 
+    "title": "De jongen op de berg"
+  }, 
+  {
+    "ISBN": "9789026139413", 
+    "author": "Dahl, Roald", 
+    "available": null, 
+    "beacon": null, 
+    "category": "Avonturenverhalen", 
+    "cover": "https://webservices.bibliotheek.be/index.php?func=cover&ISBN=9789026139413&VLACCnr=9637271&CDR=&EAN=&ISMN=&coversize=small", 
+    "reading_skill": "age9-11", 
+    "title": "Sjakie en de chocoladefabriek"
+  }
+]
